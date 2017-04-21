@@ -1,0 +1,16 @@
+<superHero>
+<class>
+	<name lang="en">Tony</name>
+	<alias>Man</alias>
+	<sex>male</sex>
+	<birthday>1969</birthday>
+	<age>47</age>
+</class>
+<class>
+	<name lang="en">pb</name>
+	<alias>Ly</alias>
+	<sex>make</sex>
+	<birthday>1995</birthday>
+	<age>21</age>
+</class>
+</superHero>

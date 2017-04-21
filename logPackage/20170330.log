@@ -1,0 +1,9 @@
+2017-03-30 18:30:39,384 ERROR    goldpalm-a3 I am error message
+2017-03-30 18:30:39,384 CRITICAL goldpalm-a3 I am critical message
+2017-03-30 18:32:47,298 INFO     goldpalm-a3 I am info message
+2017-03-30 18:32:47,298 WARNING  goldpalm-a3 I am warn message
+2017-03-30 18:32:47,298 ERROR    goldpalm-a3 I am error message
+2017-03-30 18:32:47,298 CRITICAL goldpalm-a3 I am critical message
+2017-03-30 18:32:54,858 INFO     goldpalm-a3 日志测试
+2017-03-30 18:32:54,940 INFO     goldpalm-a3 日志测试
+2017-03-30 18:32:54,940 INFO     goldpalm-a3 日志测试

@@ -1,0 +1,18 @@
+ui-sref="home">所有商品</a>
+ui-sref="card">购物车</a>
+ui-sref="order">我的订单</a>
+ui-sref="center">用户中心</a>
+ui-sref="news">新闻中心</a>
+ui-sref="about">关于超市</a>
+ui-sref="register">注册</a>
+ui-sref="login">登录</a>
+ui-sref="register" onclick="changeActive('#btn_userCenter');">注册</a>
+ui-sref="login" onclick="changeActive('#btn_userCenter');">登录</a>
+ui-sref="register">注册</a>
+ui-sref="login">登录</a> -->
+ui-sref="home">所有商品</a>
+ui-sref="card">购物车</a>
+ui-sref="order">我的订单</a>
+ui-sref="center">用户中心</a>
+ui-sref="news">新闻中心</a>
+ui-sref="about">关于超市</a>

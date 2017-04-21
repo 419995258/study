@@ -1,0 +1,4 @@
+2017-04-09 22:06:23,871 INFO     36571      I am info message
+2017-04-09 22:06:23,871 WARNING  36571      I am warn message
+2017-04-09 22:06:23,871 ERROR    36571      I am error message
+2017-04-09 22:06:23,871 CRITICAL 36571      I am critical message
