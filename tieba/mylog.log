@@ -1,0 +1,10 @@
+2017-05-05 17:04:32,503 DEBUG    PB         I'm debug 测试中文
+
+2017-05-05 17:04:32,503 INFO     PB         I'm info    
+
+2017-05-05 17:04:32,503 WARNING  PB         I'm warn    
+
+2017-05-05 17:04:32,503 ERROR    PB         I'm error 测试中文
+
+2017-05-05 17:04:32,503 CRITICAL PB         I'm critical
+
