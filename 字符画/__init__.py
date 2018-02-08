@@ -25,7 +25,7 @@ def transform2(image_file):
     return codePic
 
 
-fp = open('2.png','rb')
+fp = open('4.jpg','rb')
 image_file = Image.open(fp)
 image_file=image_file.resize((int(image_file.size[0]*0.75), int(image_file.size[1]*0.5)))#调整图片大小
 print u'Info:',image_file.size[0],' ',image_file.size[1],' ',count
