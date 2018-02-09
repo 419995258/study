@@ -9,6 +9,7 @@ import time
 import requests
 import sys
 import re
+from Crypto.Cipher import AES
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -78,14 +79,21 @@ def downloadVideos():
         name = video.title
         m3u8Name = home_url + name + '.m3u8'
         m3u8Name = m3u8Name.decode('utf-8', 'ignore')
+        keyUrl = url + "key.key"
+        key = ""
         # 保存m3u8文件
         try:
             if os.path.exists(m3u8Name):
                 pass
             else:
                 print ("正在获取：" + name)
+                getLog("正在获取：" + name)
                 response = urllib2.Request(url + "index.m3u8", headers=headers)
                 content = urllib2.urlopen(response, timeout=10).read()
+                responseKey = urllib2.Request(keyUrl, headers=headers)
+                key = urllib2.urlopen(responseKey, timeout=10).read()
+                print key
+                getLog(key)
                 with open(m3u8Name, 'wb') as fp:
                     fp.write(content)
                 time.sleep(2)
@@ -93,6 +101,7 @@ def downloadVideos():
         except Exception, e:
             print (url + ":网络地址错误/暂时没有资源/超时")
             print e
+            getLog(url + ":网络地址错误/暂时没有资源/超时")
             time.sleep(2)
         # 读取m3u8文件
         m3u8 = open(m3u8Name, 'rb')
@@ -111,6 +120,7 @@ def downloadVideos():
                     pass
                 else:
                     print ("正在获取：" + i)
+                    getLog("正在获取：" + i)
                     response = urllib2.Request(url + i, headers=headers)
                     content = urllib2.urlopen(response, timeout=10).read()
                     with open(home_url + i, 'wb') as fp:
@@ -121,6 +131,16 @@ def downloadVideos():
                 print (url + ":网络地址错误/暂时没有资源/超时")
                 print e
                 time.sleep(2)
+
+            # ts视频被AES加密了，所以需要解密，使用pyCrypto的解密
+                # ts视频被AES加密了，所以需要解密，使用pyCrypto的解密
+            raw = file(home_url + i, 'rb').read()
+            iv = raw[0:16]
+            data = raw[16:]
+            if key != "":
+                plain_data = AES.new(key, AES.MODE_CBC, iv).decrypt(data)
+                with open(home_url + i, 'wb') as fp:
+                    fp.write(plain_data)
 
         # 合并ts文件
 
@@ -144,11 +164,13 @@ def downloadVideos():
 # 下载测试
 def downTest():
     # url = "http://newvideoserver.top/uploads/20180206/ZxDzJrU7pL/index.m3u8"
-    url = "http://newvideoserver.top/uploads/20180206/ZxDzJrU7pL/500kb/hls/"
+    url = "http://newvideoserver.top/uploads/20180205/DMJq6Jz27c/500kb/hls/"
     home_url = "F://Mode//XX//python//video//"
-    name = "一个测试视频"
+    name = "tttttt"
     m3u8Name = home_url + name + '.m3u8'
     m3u8Name = m3u8Name.decode('utf-8','ignore')
+    keyUrl = url + "key.key"
+    key = ""
     # 保存m3u8文件
     try:
         if os.path.exists(m3u8Name):
@@ -157,6 +179,9 @@ def downTest():
             print ("正在获取：" + name)
             response = urllib2.Request(url+"index.m3u8", headers=headers)
             content = urllib2.urlopen(response, timeout=10).read()
+            responseKey = urllib2.Request(keyUrl, headers=headers)
+            key = urllib2.urlopen(responseKey, timeout=10).read()
+            print key
             with open(m3u8Name, 'wb') as fp:
                 fp.write(content)
             time.sleep(2)
@@ -192,23 +217,41 @@ def downTest():
             print (url + ":网络地址错误/暂时没有资源/超时")
             print e
             time.sleep(2)
+        print home_url + i
 
-    # 合并ts文件
+        # ts视频被AES加密了，所以需要解密，使用pyCrypto的解密
+        raw = file(home_url + i, 'rb').read()
+        iv = raw[0:16]
+        data = raw[16:]
+        if key != "":
+            plain_data = AES.new(key, AES.MODE_CBC, iv).decrypt(data)
+            with open(home_url + i, 'wb') as fp:
+                fp.write(plain_data)
+
+
+
+
+
+        # 合并ts文件
 
     print home_url
     os.chdir(home_url)
     shell_str = '+'.join(movies_url)
     # name = name.decode('utf-8','ignore')
     name = re.sub("[\s+\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）]+".decode("utf8"), "".decode("utf8"), name)
-    name = name.decode('utf-8').encode('gbk') + '.mp4'
+    name = name.decode('utf-8').encode('gbk') + '.ts'
     shell_str = 'copy /b ' + shell_str + ' ' + name
     print shell_str
     os.system(shell_str)
     # 删除ts和m3u8文件
-    os.system('del /Q *.ts')
-    os.system('del /Q *.m3u8')
+    # os.system('del /Q *.ts')
+    # os.system('del /Q *.m3u8')
 
-
+def getLog(text):
+    fileName = "log.txt"
+    with open(fileName, 'a') as fp:
+        fp.write(text.encode('utf8'))
+        fp.write("\n\n\n\n\n ")
 
 
 
