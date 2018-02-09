@@ -68,6 +68,7 @@ def getVideos():
         video.href = videoSource
         video.title = videoTitle
         videosSrc.append(video)
+        getLog("获取的资源是：" + videoTitle + "，" + videoSource)
 
 # 开始进行下载操作
 def downloadVideos():
@@ -249,9 +250,9 @@ def downTest():
 
 def getLog(text):
     fileName = "log.txt"
-    with open(fileName, 'a') as fp:
+    with open(fileName, 'a+') as fp:
         fp.write(text.encode('utf8'))
-        fp.write("\n\n\n\n\n ")
+        fp.write("\n")
 
 
 
