@@ -10,7 +10,7 @@ from ctypes import *
 
 def Login(qq,pwd):
     a = win32gui.FindWindow(None, "TIM")
-    #运行QQ   路径需要是中文
+    #运行QQ   路径不能中文
     os.system('"D:\QQ\Bin\QQ.exe"')
     time.sleep(5)
     a= win32gui.FindWindow(None,"QQ") # 获取窗口的句柄，参数1: 类名，参数2： 标题QQ
