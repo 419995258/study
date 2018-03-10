@@ -22,6 +22,11 @@ def Login(username,pwd):
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)  # 按下鼠标
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)  # 放开鼠标
         time.sleep(0.2)
+        for i in range(0,30):
+            # 删除键
+            win32api.keybd_event(8, 0, 0, 0)
+            win32api.keybd_event(8, 0, win32con.KEYEVENTF_KEYUP, 0)
+
         ###输入账号
         SendKeys.SendKeys(username)
         time.sleep(0.2)
@@ -39,6 +44,7 @@ def Login(username,pwd):
 book = xlrd.open_workbook("D:\my\IM\\mi.xlsx")
 sheet = book.sheet_by_name("Sheet1")
 for r in range(0, sheet.nrows):
-        username = str(sheet.cell(r,0).value)
+        username = int(sheet.cell(r,0).value)
         password = str(sheet.cell(r,1).value)
-        Login(username,password)
+        print username
+        print password
