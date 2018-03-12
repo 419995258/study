@@ -15,18 +15,17 @@ def Login(username,pwd):
         # 运行QQ   路径不能是中文，由于os.system会阻塞，这里用subprocess
         subprocess.Popen("D:\my\IM\my.exe")
         # os.system('"D:\my\IM\my.exe"')
-        time.sleep(3)
+        time.sleep(10)
         a = win32gui.FindWindow(None, "VV")  # 获取窗口的句柄，参数1: 类名，参数2： 标题QQ
         loginid = win32gui.GetWindowPlacement(a)
         windll.user32.SetCursorPos(loginid[4][0] + 200, loginid[4][1] + 150)
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)  # 按下鼠标
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)  # 放开鼠标
         time.sleep(0.2)
+        # 删除操作原有的账号
         for i in range(0,30):
-            # 删除键
             win32api.keybd_event(8, 0, 0, 0)
             win32api.keybd_event(8, 0, win32con.KEYEVENTF_KEYUP, 0)
-
         ###输入账号
         SendKeys.SendKeys(username)
         time.sleep(0.2)
@@ -44,7 +43,7 @@ def Login(username,pwd):
 book = xlrd.open_workbook("D:\my\IM\\mi.xlsx")
 sheet = book.sheet_by_name("Sheet1")
 for r in range(0, sheet.nrows):
-        username = int(sheet.cell(r,0).value)
+        username = str(sheet.cell(r,0).value)
+        username = username[0:-1]
         password = str(sheet.cell(r,1).value)
-        print username
-        print password
+        Login(username,password)
