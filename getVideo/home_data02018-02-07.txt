@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <title> 最新 Videos - 野马撸</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="keywords" content=" 最新 videos, 野马撸,野马撸在线视频,porn, sex, porno, free porn, porn tube, porn videos, stream porn, free streaming porn, full sex videos, sex videos, sex tube, amataur sex movies, free porn videos" />
+    <meta name="description" content=" 最新 Videos - 野马撸在线视频" />
+
+	<link rel="Shortcut Icon" type="image/ico" href="/favicon.ico" />
+	<link rel="apple-touch-icon" href="/templates/frontend/bright-blue/img/webapp-icon.png">
+
+    <script type="text/javascript">
+    var base_url = "http://www.yemalu.es";
+	var max_thumb_folders = "32000";
+    var tpl_url = "/templates/frontend/bright-blue";
+		var lang_deleting = "删除...";
+	var lang_flaging = "标记中...";
+	var lang_loading = "加载中...";
+	var lang_sending = "发送...";
+	var lang_share_name_empty = "请输入您的名字!";
+	var lang_share_rec_empty = "请至少输入一个收件人的电子邮件!";
+	var fb_signin = "0";
+	var fb_appid = "";
+	var g_signin = "0";
+	var g_cid = "";
+	var signup_section = false;
+	var relative = "";
+	</script>
+
+	<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	
+	<link href="/templates/frontend/bright-blue/css/bootstrap.css?v=6.0" rel="stylesheet">
+	<link href="/templates/frontend/bright-blue/css/style.css?v=6.0" rel="stylesheet">
+	<link href="/templates/frontend/bright-blue/css/responsive.css?v=6.0" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.min.css?v=6.0" rel="stylesheet">		
+	<link href="/templates/frontend/bright-blue/css/colors.css?v=6.0" rel="stylesheet">
+	<link href="http://s1.gemgsx.com/css/adv.css?v=2" rel="stylesheet">
+	
+	<!-- Video Player -->
+		
+	<!-- End Video Player -->
+	
+</head>
+<body>
+
+<div class="modal fade in" id="login-modal">
+	<div class="modal-dialog login-modal">
+      <div class="modal-content">
+        <form name="login_form" method="post" action="/login">
+		<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">会员登录</h4>
+        </div>
+        <div class="modal-body">
+			<center>
+				<div class="m-b-5"></div>
+											</center>	
+			<div class="form-group">
+				<label for="login_username" class="control-label">用户名:</label>
+				<input name="username" type="text" value="" id="login_username" class="form-control" />
+			</div>
+			<div class="form-group">
+				<label for="login_password" class="control-label">密码:</label>
+				<input name="password" type="password" value="" id="login_password" class="form-control" />
+			</div>
+			<a href="/lost" id="lost_password">忘记用户名或密码？</a><br />
+			<a href="/confirm" id="confirmation_email">没有收到确认邮件？</a>		
+        </div>
+        <div class="modal-footer">
+          <button name="submit_login" id="login_submit" type="submit" class="btn btn-primary">登录</button>
+          <a href="/signup" class="btn btn-secondary">注册</a>
+        </div>
+		</form>			
+      </div>
+    </div>
+</div>
+
+
+<div class="modal fade in" id="language-modal">
+	<div class="modal-dialog language-modal">
+      <div class="modal-content">
+        
+		<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Select Language</h4>
+        </div>
+        <div class="modal-body">
+			<div class="row">
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="en_US" class="change-language">English</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="fr_FR" class="change-language">Français</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="de_DE" class="change-language">Deutsch</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="nl_NL" class="change-language">Dutch</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="es_ES" class="change-language">Español</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="it_IT" class="change-language">Italiano</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="pt_PT" class="change-language">Português</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="pt_BR" class="change-language">Português</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="ru_RU" class="change-language">русский</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="sa_SA" class="change-language">العربية</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="he_IL" class="change-language">עִבְרִית</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="jp_JP" class="change-language">日本語</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<span class="change-language language-active">中文简体</span>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="cn_CT" class="change-language">中文 繁體</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="tr_TR" class="change-language">Türkçe</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="dk_DK" class="change-language">Dansk</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="no_NO" class="change-language">Norsk</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="cz_CZ" class="change-language">Český</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="bn_BD" class="change-language">বাংলা</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="ro_RO" class="change-language">Română</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="pl_PL" class="change-language">Polski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="hu_HU" class="change-language">Magyar</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="ba_BA" class="change-language">Bosanski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="hr_HR" class="change-language">Hrvatski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="rs_RS" class="change-language">Srpski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="#" id="si_SI" class="change-language">Slovenski</a>
+											</div>
+							</div>
+			<form name="languageSelect" id="languageSelect" method="post" action="">
+			<input name="language" id="language" type="hidden" value="" />
+			</form>
+        </div>
+
+		
+      </div>
+    </div>
+</div>
+<div class="top-nav">
+	<div class="container">
+		<ul class="top-menu">
+							<div class="pull-left">
+					
+					<li><a data-toggle="modal" href="#language-modal">CN <span class="caret"></span></a></li>					
+				</div>
+						<div class="pull-right">
+							<li><a href="/signup" rel="nofollow">注册</a></li>
+				<li><a data-toggle="modal" href="#login-modal">登录</a></li>	
+						</div>
+			<div class="clearfix"></div>
+		</ul> 
+	</div>
+</div>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/"><img src="/images/logo/logo.png"></a> 
+		</div>
+		<div class="navbar-collapse collapse navbar-inverse-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="/videos">视频</a></li>				<li><a href="/albums">图片</a></li>								
+				<li class="dropdown visible-sm hidden-xs hidden-md hidden-lg">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+														<li><a href="/categories">类别</a></li>
+							<li><a href="/community">社区</a></li>
+						</ul>
+				</li>
+				
+								<li class="hidden-sm"><a href="/categories">类别</a></li>
+				<!--<li class="hidden-sm"><a href="/community">社区</a></li>-->
+				<li class="hidden-sm"><a href="/notices">通告</a></li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+				<ul class="dropdown-menu search-dropdown-menu">
+					<form class="form-inline" name="search" id="search_form" method="get" action="/search/videos">
+						<div class="input-group">
+						<input type="text" class="form-control" placeholder="搜索" name="search_query" id="search_query" value="">
+						<span class="search-select input-group-addon">
+							<select class="form-control" id="search_type">
+								<option value="videos">视频</option>
+								<option value="photos">照片</option>																<option value="users">用户</option>
+							</select>		
+						</span>
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+						</span>
+						</div>
+					</form>
+				</ul>
+				</li>
+				<li><button type="button" class="btn btn-primary navbar-btn m-l-15 m-r-15" onclick="location.href='/upload'">上传</button></li>						
+			</ul>
+			
+		</div><!--/.nav-collapse -->
+    </div>
+</div>
+<div id="wrapper">
+<div class="container">
+	<div class="well ad-body">
+	
+		<a href="https://www.8633000.COM" target="_blank"><img src="http://ww4.sinaimg.cn/large/0060lm7Tly1fn0atlbrl9g30qo01ytib.gif" alt="广告 1" width="960" height="70"></a> <br />
+	<a href="http://8343222.com/?Intr=270866" target="_blank"><img src="http://ww4.sinaimg.cn/large/0060lm7Tgy1fdax4w93lcg30r8028dla.gif" alt="广告 1" width="960" height="70"></a> <br />
+	<a href="https://99099666.com/?Agent=bjlgg0039" target="_blank"><img src="http://ww2.sinaimg.cn/large/0060lm7Tly1fmkow3ne9fg30qo01y4fx.gif" alt="广告 1" width="960" height="70"></a> <br />
+	<a href="https://www.xpjylc004.com/?Agent=jhgzzx00971" target="_blank"><img src="http://ww4.sinaimg.cn/large/ab45ff5cgy1fkcgwzm6xmg20qo01yahd.gif" alt="广告 1" width="960" height="70"></a><br />
+	<a href="http://www.8052623.com/?aff=909369" target="_blank"><img src="http://ww4.sinaimg.cn/large/ab45ff5cgy1fkch4mjoqcg20qo01yjxz.gif" alt="广告 1" width="960" height="70"></a><br />
+	<a href="https://www.9979077.com/?Agent=pagzgg0278" target="_blank"><img src="http://ww2.sinaimg.cn/large/0060lm7Tly1fn0atom65gg30qo01y4bz.gif" alt="广告 1" width="960" height="70"></a><br />
+	<a href="https://www.77719007.com/?Agent=pagzgg0579" target="_blank"><img src="http://ww3.sinaimg.cn/large/0060lm7Tly1fn0atrfo6bg30qo01yndx.gif" alt="广告 1" width="960" height="70"></a><br />
+	<a href="http://5557782.com" target="_blank"><img src="http://ww4.sinaimg.cn/large/0060lm7Tly1fnhnuxa62eg30qo01y7ai.gif" alt="广告 1.15" width="960" height="70"></a><br />
+	<a href="https://www.9118e.com/index.php/user/register" target="_blank"><img src="https://wx4.sinaimg.cn/large/ab45ff5cgy1fibohbv3bvg20qo028dgu.gif" alt="广告 1" width="960" height="70"></a><br />	</div>
+	<div class="clearfix"></div>
+
+	<div class="well well-filters">
+			<div class="pull-left">
+				<h4>视频</h4>
+			</div>
+			<div class="pull-left m-l-20">
+				<div class="hidden-xs">
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">类型 <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="/videos">全部</a></li>
+							<li ><a href="/videos?type=public">公开</a></li>
+							<li ><a href="/videos?type=private">私人</a></li>
+						</ul>
+					</div>
+					
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">大事记 <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="/videos?t=a">全部</a></li>							
+							<li ><a href="/videos?t=t">加入 今天</a></li>
+							<li ><a href="/videos?t=w">加入 这周</a></li>
+							<li ><a href="/videos?t=m">加入 本月</a></li>
+						</ul>
+					</div>					
+
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">最新 <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li ><a href="/videos?o=bw">被观看</a></li>						
+							<li class="active"><a href="/videos?o=mr">最新</a></li>
+							<li ><a href="/videos?o=mv">最受欢迎</a></li>
+							<li ><a href="/videos?o=md">最多评论</a></li>
+							<li ><a href="/videos?o=tr">最高评分</a></li>							
+							<li ><a href="/videos?o=tf">最爱</a></li>
+							<li ><a href="/videos?o=lg">Longest</a></li>
+						</ul>
+					</div>					
+				</div>	
+				<div class="visible-xs">
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Filters <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="/videos">全部</a></li>
+							<li ><a href="/videos?type=public">公开</a></li>
+							<li ><a href="/videos?type=private">私人</a></li>						
+							<li class="divider"></li>
+							<li class="active"><a href="/videos?t=a">全部</a></li>							
+							<li ><a href="/videos?t=t">加入 今天</a></li>
+							<li ><a href="/videos?t=w">加入 这周</a></li>
+							<li ><a href="/videos?t=m">加入 本月</a></li>
+							<li class="divider"></li>				
+							<li ><a href="/videos?o=bw">被观看</a></li>						
+							<li class="active"><a href="/videos?o=mr">最新</a></li>
+							<li ><a href="/videos?o=mv">最受欢迎</a></li>
+							<li ><a href="/videos?o=md">最多评论</a></li>
+							<li ><a href="/videos?o=tr">最高评分</a></li>							
+							<li ><a href="/videos?o=tf">最爱</a></li>
+							<li ><a href="/videos?o=lg">Longest</a></li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+			<div class="pull-right">
+				<a class="btn btn-primary" href="/upload/video"><span class="hidden-xs"><i class="fa fa-upload"></i> 上传视频</span><span class="visible-xs"><i class="fa fa-upload"></i></span></a>
+			</div>		
+			<div class="clearfix"></div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-9 col-sm-8">
+            			<div class="well well-sm">
+				显示 <span class="text-white">1</span> 到 <span class="text-white">18</span> of <span class="text-white">536</span> 视频.
+			</div>			
+			<div class="row">
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/536/颜值不错的美女和墨镜大鸡巴帅哥各种姿势啪啪妹子下面很干啊插了很久也没有水">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/536/1.jpg?v=2" title="颜值不错的美女和墨镜大鸡巴帅哥各种姿势啪啪妹子下面很干啊插了很久也没有水" alt="颜值不错的美女和墨镜大鸡巴帅哥各种姿势啪啪妹子下面很干啊插了很久也没有水" id="rotate_536_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									29:14
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">颜值不错的美女和墨镜大鸡巴帅哥各种姿势啪啪妹子下面很干啊插了很久也没有水</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							66854 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>53%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/535/休闲娱乐会所嫖娼阴毛浓密很听话的黑丝小姐听俩人对白好像很熟了是个老嫖客720p高清">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/535/1.jpg?v=2" title="休闲娱乐会所嫖娼阴毛浓密很听话的黑丝小姐听俩人对白好像很熟了是个老嫖客720P高清" alt="休闲娱乐会所嫖娼阴毛浓密很听话的黑丝小姐听俩人对白好像很熟了是个老嫖客720P高清" id="rotate_535_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									15:18
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">休闲娱乐会所嫖娼阴毛浓密很听话的黑丝小姐听俩人对白好像很熟了是个老嫖客720P高清</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							75099 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>59%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/534/啊太深了我不行了-91大神kxs网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080p">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/534/1.jpg?v=2" title="“啊太深了我不行了”91大神KXS网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080P" alt="“啊太深了我不行了”91大神KXS网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080P" id="rotate_534_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									24:36
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">“啊太深了我不行了”91大神KXS网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080P</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							50562 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>63%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/533/96年超靓女神妹子丝袜足交啪啪-洪水泛滥-嘴里喊着不要-不要-身体却拼命迎合">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/533/1.jpg?v=2" title="96年超靓女神妹子丝袜足交啪啪,洪水泛滥,嘴里喊着不要,不要.身体却拼命迎合" alt="96年超靓女神妹子丝袜足交啪啪,洪水泛滥,嘴里喊着不要,不要.身体却拼命迎合" id="rotate_533_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									23:23
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">96年超靓女神妹子丝袜足交啪啪,洪水泛滥,嘴里喊着不要,不要.身体却拼命迎合</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							56735 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>55%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/532/老铁礼物不断福利不断面容很猥琐的渣男被美女主播伺候的那叫一个爽爆菊还要奖励对白清晰">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/532/1.jpg?v=2" title="老铁礼物不断福利不断面容很猥琐的渣男被美女主播伺候的那叫一个爽爆菊还要奖励对白清晰" alt="老铁礼物不断福利不断面容很猥琐的渣男被美女主播伺候的那叫一个爽爆菊还要奖励对白清晰" id="rotate_532_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									27:00
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">老铁礼物不断福利不断面容很猥琐的渣男被美女主播伺候的那叫一个爽爆菊还要奖励对白清晰</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							32477 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>39%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/531/网红少女宛如福利收费自拍白色镂空蕾丝新买的小玩具开心一下阴毛性感至极1080p超清">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/531/1.jpg?v=2" title="网红少女宛如福利收费自拍白色镂空蕾丝新买的小玩具开心一下阴毛性感至极1080P超清" alt="网红少女宛如福利收费自拍白色镂空蕾丝新买的小玩具开心一下阴毛性感至极1080P超清" id="rotate_531_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									09:05
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">网红少女宛如福利收费自拍白色镂空蕾丝新买的小玩具开心一下阴毛性感至极1080P超清</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							36811 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>59%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/530/26-啊太深了我不行了-91大神kxs网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080p">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/530/1.jpg?v=2" title="26“啊太深了我不行了”91大神KXS网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080P" alt="26“啊太深了我不行了”91大神KXS网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080P" id="rotate_530_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									24:36
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">26“啊太深了我不行了”91大神KXS网约丰满肥臀94年南京妹性感蓝丝沙发上聊几句就开战呻吟特刺激对白淫荡1080P</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							30831 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>63%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/529/23萌神美女主播糖豆豆02-奶子很小-好尴尬">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/529/1.jpg?v=2" title="23萌神美女主播糖豆豆02“奶子很小 好尴尬”" alt="23萌神美女主播糖豆豆02“奶子很小 好尴尬”" id="rotate_529_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									10:12
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">23萌神美女主播糖豆豆02“奶子很小 好尴尬”</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							40654 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>63%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/528/24康先生酒店茶几上狂干江苏黑丝美女王悠悠第1期">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/528/1.jpg?v=2" title="24康先生酒店茶几上狂干江苏黑丝美女王悠悠第1期" alt="24康先生酒店茶几上狂干江苏黑丝美女王悠悠第1期" id="rotate_528_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									15:44
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">24康先生酒店茶几上狂干江苏黑丝美女王悠悠第1期</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							32793 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>71%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/527/21喷血推荐价值388的黄金比例裸模吴沐熙最新作品全裸诱惑挑逗你">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/527/1.jpg?v=2" title="21喷血推荐价值388的黄金比例裸模吴沐熙最新作品全裸诱惑挑逗你" alt="21喷血推荐价值388的黄金比例裸模吴沐熙最新作品全裸诱惑挑逗你" id="rotate_527_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									05:01
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">21喷血推荐价值388的黄金比例裸模吴沐熙最新作品全裸诱惑挑逗你</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							33248 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>30%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/526/22男主环游世界休斯顿德州美国约炮馒头小骚逼普通话对白精彩同步字幕">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/526/1.jpg?v=2" title="22男主环游世界休斯顿德州美国约炮馒头小骚逼普通话对白精彩同步字幕" alt="22男主环游世界休斯顿德州美国约炮馒头小骚逼普通话对白精彩同步字幕" id="rotate_526_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									18:49
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">22男主环游世界休斯顿德州美国约炮馒头小骚逼普通话对白精彩同步字幕</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							34590 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>59%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/525/19软萌萝莉小仙-170期171期-100p1v-湿身透明死库水-肉便器贴纸-白丝蝴蝶结大腿袜-花洒冲穴-假jj自慰">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/525/1.jpg?v=2" title="19软萌萝莉小仙 170期171期 100P1V 湿身透明死库水 肉便器贴纸 白丝蝴蝶结大腿袜 花洒冲穴 假jj自慰" alt="19软萌萝莉小仙 170期171期 100P1V 湿身透明死库水 肉便器贴纸 白丝蝴蝶结大腿袜 花洒冲穴 假jj自慰" id="rotate_525_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									12:01
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">19软萌萝莉小仙 170期171期 100P1V 湿身透明死库水 肉便器贴纸 白丝蝴蝶结大腿袜 花洒冲穴 假jj自慰</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							49895 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>69%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/524/20软萌萝莉小仙-172期173期-106p1v-乖乖兔子吃胡萝卜-挑了最小的胡萝卜-小穴还是被塞满了-胡萝卜插出好多白浆-最后全都舔干净">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/524/1.jpg?v=2" title="20软萌萝莉小仙 172期173期 106P1V 乖乖兔子吃胡萝卜 挑了最小的胡萝卜 小穴还是被塞满了 胡萝卜插出好多白浆 最后全都舔干净" alt="20软萌萝莉小仙 172期173期 106P1V 乖乖兔子吃胡萝卜 挑了最小的胡萝卜 小穴还是被塞满了 胡萝卜插出好多白浆 最后全都舔干净" id="rotate_524_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									12:01
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">20软萌萝莉小仙 172期173期 106P1V 乖乖兔子吃胡萝卜 挑了最小的胡萝卜 小穴还是被塞满了 胡萝卜插出好多白浆 最后全都舔干净</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							24175 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>72%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/523/17麻酥酥哟-死库泳衣">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/523/1.jpg?v=2" title="17麻酥酥哟—死库泳衣" alt="17麻酥酥哟—死库泳衣" id="rotate_523_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									04:10
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">17麻酥酥哟—死库泳衣</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							11622 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>84%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/522/18麻酥酥哟-室外工地">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/522/1.jpg?v=2" title="18麻酥酥哟—室外工地" alt="18麻酥酥哟—室外工地" id="rotate_522_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									01:25
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">18麻酥酥哟—室外工地</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							13906 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>28%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/521/15网红尤物女神私人玩物-跳蛋塞入穴内加水晶棒淫语挑逗-白浆泛滥">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/521/1.jpg?v=2" title="15网红尤物女神私人玩物 跳蛋塞入穴内加水晶棒淫语挑逗 白浆泛滥" alt="15网红尤物女神私人玩物 跳蛋塞入穴内加水晶棒淫语挑逗 白浆泛滥" id="rotate_521_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									21:33
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">15网红尤物女神私人玩物 跳蛋塞入穴内加水晶棒淫语挑逗 白浆泛滥</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							28813 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>81%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/520/16性感美女水中下药迷倒男邻居自嗨到一半邻居惊醒兽性大发内射">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/520/1.jpg?v=2" title="16性感美女水中下药迷倒男邻居自嗨到一半邻居惊醒兽性大发内射" alt="16性感美女水中下药迷倒男邻居自嗨到一半邻居惊醒兽性大发内射" id="rotate_520_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									18:57
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">16性感美女水中下药迷倒男邻居自嗨到一半邻居惊醒兽性大发内射</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							44593 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>84%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="/video/519/13高清无码录制御姐型美女主播酒店约炮土豪胖粉丝黄狗射尿站立式干完不满足还给舔鸡巴">
+							<div class="thumb-overlay">
+								<img src="http://ym.shuiqingqing.net/media/videos/tmb/519/1.jpg?v=2" title="13高清无码录制御姐型美女主播酒店约炮土豪胖粉丝黄狗射尿站立式干完不满足还给舔鸡巴" alt="13高清无码录制御姐型美女主播酒店约炮土豪胖粉丝黄狗射尿站立式干完不满足还给舔鸡巴" id="rotate_519_1_1" class="img-responsive "/>
+																								<div class="duration">
+									
+									30:14
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">13高清无码录制御姐型美女主播酒店约炮土豪胖粉丝黄狗射尿站立式干完不满足还给舔鸡巴</span>
+						</a>
+						<div class="video-added">
+							
+							13 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							16266 观看次数						</div>
+						<div class="video-rating pull-right ">
+							<i class="fa fa-heart video-rating-heart "></i> <b>76%</b>
+						</div>
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            			
+			</div>
+            	
+
+										
+					<div style="text-align: center;" class="visible-xs">
+						<ul class="pagination pagination-lg"><li class="active"><span>1</span></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=2">2</a></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=3">3</a></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=4">4</a></li><li class="disabled hidden-xs"><span>&nbsp;...&nbsp;</span><li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=28">28</a></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=29">29</a></li><li><a href="http://www.yemalu.es/videos?page=2" class="prevnext">&raquo;</a></li></ul>
+					</div>
+							
+		</div>
+		
+		<div class="col-md-3 col-sm-4">
+			<div class="list-group">
+				<a href="/videos" class="list-group-item active">
+					全部
+				</a>
+								<a href="/videos/" class="list-group-item">
+					自拍
+				</a>
+							</div>
+			<div class="well ad-body">
+				<p class="ad-title">赞助商</p>
+				
+							</div>			
+		</div>
+	</div>
+				
+			<div style="text-align: center;" class="hidden-xs">
+				<ul class="pagination"><li class="active"><span>1</span></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=2">2</a></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=3">3</a></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=4">4</a></li><li class="disabled hidden-xs"><span>&nbsp;...&nbsp;</span><li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=28">28</a></li><li class="hidden-xs"><a href="http://www.yemalu.es/videos?page=29">29</a></li><li><a href="http://www.yemalu.es/videos?page=2" class="prevnext">&raquo;</a></li></ul>
+			</div>
+				
+	<div class="well ad-body">
+		<p class="ad-title">赞助商</p>
+		
+		<a href="http://7355000.com:8888/Register?a=6963" target="_blank"><img src="http://ww2.sinaimg.cn/large/0060lm7Tly1flm2txaivfg30qo01ytaw.gif" alt="广告 1"  width="960" height="70"></a>
+<a href="http://6064411.com/?Intr=270870" target="_blank"><img src="http://ww4.sinaimg.cn/large/0060lm7Tgy1fdax4y362ug30qo01yjz6.gif" alt="广告 1"  width="960" height="70"></a>
+<a href="http://www.amjs79.com/?Intr=253510" target="_blank"><img src="http://ww3.sinaimg.cn/large/0060lm7Tgw1fah2nqxbgvg30qo01oq4b.gif" border="0" alt="广告 11-30" width="960" height="70"></a>
+<a href="http://www.bjl6600.com/?Extend=2331199" target="_blank"><img src="http://ww2.sinaimg.cn/large/0060lm7Tly1fnhntdtkxhg30qo01oafk.gif" border="0" alt="广告 11-30" width="960" height="70"></a>
+<a href="http://7355000.com:8888/Register?a=6963" target="_blank"><img src="http://ww2.sinaimg.cn/large/0060lm7Tly1flm2txaivfg30qo01ytaw.gif" alt="广告 1"  width="960" height="70"></a>	</div>	
+</div><div class="footer-container">
+	<div class="footer">
+		<div class="container">
+			<div class="hidden-xs">
+				<div class="pull-left">
+					<span>版权所有 &#169; 2008-2017</span> 野马撸
+				</div>
+				<div class="pull-right">
+					Powered by <a target="_blank" href="http://www.yemalu.info">Yemalu</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="visible-xs"><span>版权所有 &#169; 2008-2017</span> 野马撸<br />Powered by <a target="_blank" href="http://www.yemalu.info">Yemalu</a></div>
+		</div>
+	</div>
+</div>
+</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/templates/frontend/bright-blue/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/templates/frontend/bright-blue/js/jquery.rotator-0.2.js"></script>
+    <script type="text/javascript" src="/templates/frontend/bright-blue/js/jquery.avs-0.2.js"></script>	
+			
+	<script>
+	
+			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		  var msViewportStyle = document.createElement('style')
+		  msViewportStyle.appendChild(
+			document.createTextNode(
+			  '@-ms-viewport{width:auto!important}'
+			)
+		  )
+		  document.querySelector('head').appendChild(msViewportStyle)
+		}
+	
+	</script>	
+	<div style="display:none;"><script language="javascript" type="text/javascript" src="http://js.users.51.la/18987489.js"></script><noscript><a href="http://www.51.la/?18987489" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/18987489.asp" style="border:none" /></a></noscript></div>		
+<script src="http://s1.gemgsx.com/js/Pop_html.js"></script>
+<script src="http://s1.gemgsx.com/js/adv.js"></script>
+</body>
+</html>
