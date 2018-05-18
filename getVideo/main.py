@@ -7,6 +7,7 @@ import os.path
 from bs4 import BeautifulSoup
 import time
 
+# www.yemalu.tw
 # url = 'http://lu.shuiqingqing.net/media/photos/1.jpg'
 # url = 'http://www.yehualu.pw/photo/1'
 # imgName = 'F:\Mode\XX\python\1.img'

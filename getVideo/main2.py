@@ -9,7 +9,8 @@ import time
 import requests
 import sys
 import re
-from Crypto.Cipher import AES
+from Crypto.Cipher import AES   #这个是安装pycrypto模块，在这之前，需要想安装vc9.0+:https://www.microsoft.com/en-us/download/confirmation.aspx?id=44266
+# 同时还需要lxml模块
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -20,8 +21,8 @@ sys.setdefaultencoding('utf-8')
 # imgName = 'F:\Mode\XX\python\1.img'
 headers = {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'}
 
-home_url = "http://www.yemalu.es/videos?" + "page="
-video_url = "http://www.yemalu.es/"
+home_url = "http://www.yemalu.wang/videos?" + "page="
+video_url = "http://www.yemalu.wang/"
 videos = []   # 所有视频的连接地址
 videosSrc = []   # 所有视频的下载地址
 
@@ -76,7 +77,7 @@ def downloadVideos():
         print video.title + ":" + video.href
         url = video.href[0:-10] + '500kb/hls/'
         # url = "http://newvideoserver.top/uploads/20180206/ZxDzJrU7pL/500kb/hls/"
-        home_url = "F://Mode//XX//python//video//"
+        home_url = "E://Mode//XX//python//video//"
         name = video.title
         m3u8Name = home_url + name + '.m3u8'
         m3u8Name = m3u8Name.decode('utf-8', 'ignore')
@@ -166,7 +167,7 @@ def downloadVideos():
 def downTest():
     # url = "http://newvideoserver.top/uploads/20180206/ZxDzJrU7pL/index.m3u8"
     url = "http://newvideoserver.top/uploads/20180205/DMJq6Jz27c/500kb/hls/"
-    home_url = "F://Mode//XX//python//video//"
+    home_url = "E://Mode//XX//python//video//"
     name = "tttttt"
     m3u8Name = home_url + name + '.m3u8'
     m3u8Name = m3u8Name.decode('utf-8','ignore')
