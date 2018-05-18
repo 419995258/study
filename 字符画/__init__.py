@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from PIL import Image
+from PIL import Image #导入pil包
 
 codeLib = '''@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`'. '''#生成字符画所需的字符集
 count = len(codeLib)
@@ -25,10 +25,10 @@ def transform2(image_file):
     return codePic
 
 
-fp = open('4.jpg','rb')
+fp = open('5.jpg','rb')
 image_file = Image.open(fp)
 image_file=image_file.resize((int(image_file.size[0]*0.75), int(image_file.size[1]*0.5)))#调整图片大小
-print u'Info:',image_file.size[0],' ',image_file.size[1],' ',count
+print(u'Info:',image_file.size[0],' ',image_file.size[1],' ',count)
 
 tmp = open('tmp.txt','w')
 tmp.write(transform1(image_file))
