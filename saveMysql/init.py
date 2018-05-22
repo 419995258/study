@@ -1,6 +1,6 @@
 # coding=utf-8
-import MySQLdb
-import xlrd
+import MySQLdb   #安装exe文件
+
 
 
 
