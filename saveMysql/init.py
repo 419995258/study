@@ -19,8 +19,8 @@ sql = "insert into news(title,href,source,creTime,content) values(%s,%s,%s,%s,%s
 
 
 # 循环获取数据并保存数据
-for i in range(0, 100):
-        cursor.execute(sql,("title" + bytes(i),"href"+bytes(i),"source"+bytes(i),"2018-05-22 17:40:00","content"+bytes(i)));
+for i in range(0, 3):
+        cursor.execute(sql,("title2" + bytes(i),"/static/file/img/time.jpg","source"+bytes(i),"2018-05-22 17:40:00","content"+bytes(i)));
         print i
 
 

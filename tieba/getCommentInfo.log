@@ -3088,3 +3088,47 @@
 
 2017-05-08 11:25:08,608 INFO     PB         获取标题为<<厉害了我的哥，这种帖子我能发多少呢？>>的项成功 ...
 
+2019-02-20 09:44:26,961 INFO     41999      获取URLS成功    
+
+2019-02-20 09:44:28,375 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=0  数据成功
+
+2019-02-20 09:45:24,198 INFO     41999      获取URLS成功    
+
+2019-02-20 09:45:25,201 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=0  数据成功
+
+2019-02-20 09:46:31,881 INFO     41999      获取URLS成功    
+
+2019-02-20 09:46:33,038 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=0  数据成功
+
+2019-02-20 09:46:34,263 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=50  数据成功
+
+2019-02-20 09:46:35,592 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=100  数据成功
+
+2019-02-20 09:46:36,769 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=150  数据成功
+
+2019-02-20 09:46:38,069 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=200  数据成功
+
+2019-02-20 09:50:59,957 INFO     41999      获取URLS成功    
+
+2019-02-20 09:51:01,967 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=0  数据成功
+
+2019-02-20 09:51:03,483 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=50  数据成功
+
+2019-02-20 09:51:04,993 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=100  数据成功
+
+2019-02-20 09:51:06,407 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=150  数据成功
+
+2019-02-20 09:51:07,654 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=200  数据成功
+
+2019-03-01 08:42:23,634 INFO     41999      获取URLS成功    
+
+2019-03-01 08:42:24,996 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=0  数据成功
+
+2019-03-01 08:42:26,144 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=50  数据成功
+
+2019-03-01 08:42:27,486 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=100  数据成功
+
+2019-03-01 08:42:28,792 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=150  数据成功
+
+2019-03-01 08:42:30,042 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=200  数据成功
+

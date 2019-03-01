@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html class="expanded">
+<head>
+<!--STATUS OK-->
+<meta content="text/html;charset=utf8" http-equiv="Content-Type"/>
+<meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<link href="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/img/favicon.ico" mce_href="../static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+<title>百度新闻——海量中文资讯平台</title>
+<meta content="百度新闻是包含海量资讯的新闻服务平台，真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等，快速了解它们的最新进展。" name="description"/>
+<script type="text/javascript">
+		document.write("<script  type='text/javascript' src='//news-bos.cdn.bcebos.com/mvideo/pcconf_2019.js?"+new Date().getTime()+"'><\/script>");
+	</script>
+<script type="text/javascript"> window.NEWSLOGURL = 'https://log.news.baidu.com/v.gif'; window.HUNTERLOGURL = '//log.news.baidu.com/u.gif'; window._hmt = window._hmt || [];</script>
+<script src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/resource/js/usermonitor_88a158c.js?v=1.2" type="text/javascript"></script>
+<script src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/news/js/jquery-1.8.3.min_a6ffa58.js" type="text/javascript"></script>
+<link href="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/module_static_include/module_static_include_fea09a0.css" rel="stylesheet" type="text/css"/><link href="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/news/focustop/focustop_6e4b3ae.css" rel="stylesheet" type="text/css"/></head>
+<body>
+<div class="clearfix" id="header-wrapper">
+<div alog-alias="hunter-userbar-start" alog-group="userbar" id="usrbar"></div>
+<ul class="clearfix" id="header-link-wrapper">
+<li><a data-path="s?wd=" href="https://www.baidu.com/">网页</a></li>
+<li style="margin-left:21px;"><span>新闻</span></li>
+<li><a data-path="f?kw=" href="http://tieba.baidu.com/">贴吧</a></li>
+<li><a data-path="search?ct=17&amp;pn=0&amp;tn=ikaslist&amp;rn=10&amp;lm=0&amp;word=" href="https://zhidao.baidu.com/">知道</a></li>
+<li><a data-path="search?fr=news&amp;ie=utf-8&amp;key=" href="http://music.baidu.com/">音乐</a></li>
+<li><a data-path="search/index?ct=201326592&amp;cl=2&amp;lm=-1&amp;tn=baiduimage&amp;istype=2&amp;fm=&amp;pv=&amp;z=0&amp;word=" href="http://image.baidu.com/">图片</a></li>
+<li><a data-path="v?ct=3019898888&amp;ie=utf-8&amp;s=2&amp;word=" href="http://v.baidu.com/">视频</a></li>
+<li><a data-path="?newmap=1&amp;ie=utf-8&amp;s=s%26wd%3D" href="http://map.baidu.com/">地图</a></li>
+<li><a data-path="search?ie=utf-8&amp;word=" href="http://wenku.baidu.com/">文库</a></li>
+<div class="header-divider"></div>
+</ul>
+</div>
+<div id="app_tooltip_qrcode">
+<img src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/img/sidebar/1014720a_d31158d.png"/>
+</div>
+<div id="headerwrapper">
+<div alog-alias="hunter-header-start" alog-group="header" id="header">
+<table alog-group="search-box" class="sbox" id="sbox">
+<tr>
+<td class="logo">
+<div class="logo">
+<a href="http://news.baidu.com/">
+<!--[if !IE]><!--><img alt="百度新闻" height="46px" src="https://box.bdimg.com/static/fisp_static/common/img/searchbox/logo_news_276_88_1f9876a.png" width="137px"/><!--<![endif]-->
+<!--[if IE 6]><img src="https://box.bdimg.com/static/fisp_static/common/img/searchbox/logo_news_276_88_for_ie6_1597c18.png" alt="百度新闻" height="46px" width="137px"><![endif]-->
+<!--[if gt IE 6]><img src="https://box.bdimg.com/static/fisp_static/common/img/searchbox/logo_news_276_88_1f9876a.png" alt="百度新闻" height="46px" width="137px"><![endif]-->
+</a>
+</div>
+<div class="date"></div>
+</td>
+<td class="search">
+<table>
+<tr>
+<td class="box"><div id="sugarea"><span class="s_ipt_wr" id="s_ipt_wr"><input class="word" id="ww" maxlength="100" name="word" size="42" tabindex="1"/></span><span class="s_btn_wr"><input class="btn" id="s_btn_wr" onmousedown="this.className='btn s_btn_h'" onmouseout="this.className='btn'" type="button" value="百度一下"/></span></div></td>
+<td class="help"><a href="//help.baidu.com">帮助</a><a href="//news-bos.cdn.bcebos.com/mvideo/pcnews_advanced.html?v=23">高级搜索</a></td>
+</tr>
+</table>
+<p class="search-radios">
+<input checked="checked" id="news" name="tn" type="radio" value="news"/>
+<label class="checked" for="news">新闻全文</label>
+<input id="newstitle" name="tn" type="radio" value="newstitle"/>
+<label class="not-checked" for="newstitle">新闻标题</label>
+</p>
+<input id="from" name="from" type="hidden" value="news"/>
+<input id="cl" name="cl" type="hidden" value="2"/>
+<input id="rn" name="rn" type="hidden" value="20"/>
+<input id="ct" name="ct" type="hidden" value="1"/>
+</td>
+</tr>
+</table>
+</div>
+<div alog-group="home-menu" class="mod-navbar" id="menu">
+<div class="channel-shanghai clearfix" id="channel-shanghai" style="display:none">
+<div class="menu-list">
+<ul class="clearfix">
+<li class="navitem-index current active"><a href="/">首页</a></li>
+<li><a href="/guonei">国内</a></li>
+<li><a href="/guoji">国际</a></li>
+<li><a href="/mil">军事</a></li>
+<li><a href="/finance">财经</a></li>
+<li><a href="/ent">娱乐</a></li>
+<li><a href="/sports">体育</a></li>
+<li><a href="/internet">互联网</a></li>
+<li><a href="/tech">科技</a></li>
+<li><a href="/game">游戏</a></li>
+<li><a href="/lady">女人</a></li>
+<li><a href="/auto">汽车</a></li>
+<li><a href="/house">房产</a></li>
+</ul>
+</div>
+<i class="slogan"></i>
+</div>
+<div class="channel-all clearfix" id="channel-all">
+<div class="menu-list">
+<ul class="clearfix">
+<li class="navitem-index current active"><a href="/">首页</a></li>
+<li><a href="/guonei">国内</a></li>
+<li><a href="/guoji">国际</a></li>
+<li><a href="/mil">军事</a></li>
+<li><a href="/finance">财经</a></li>
+<li><a href="/ent">娱乐</a></li>
+<li><a href="/sports">体育</a></li>
+<li><a href="/internet">互联网</a></li>
+<li><a href="/tech">科技</a></li>
+<li><a href="/game">游戏</a></li>
+<li><a href="/lady">女人</a></li>
+<li><a href="/auto">汽车</a></li>
+<li><a href="/house">房产</a></li>
+</ul>
+</div>
+<i class="slogan"></i>
+</div>
+</div>
+</div>
+<div alog-alias="b" id="body">
+<div class="top-banner" id="topbanner"></div>
+<div class="column clearfix" id="focus-top" style="margin-top: 12px; margin-bottom: 31px;">
+<div alog-group="focus-top-left" class="l-left-col">
+<div id="left-col-wrapper">
+<div class="recommend-tip-wrapper">
+<div class="tip-wrapper">
+<div class="background-wrapper">
+<a class="mod-headline-tip" href="javascript:void(0);" id="tip-float">
+<div class="content-wrapper">
+<i class="tip-logo"></i>
+<div class="tip-content">点击刷新，将会有未读推荐</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="mod-headline-tab" id="headline-tabs">
+<ul class="clearfix">
+<li class="active"><a data-control="pane-news" href="javascript:void(0);">热点要闻</a></li>
+</ul>
+<a class="tab-login" href="javascript:void(0);" id="tab-login" mon="m=53&amp;a=3" onclick="return false"></a>
+</div>
+<div class="mod-tab-content">
+<div class="mod-tab-pane active" id="pane-news">
+<div alog-group="focustop-hotnews" class="hotnews">
+<ul><li class="hdline0">
+<i class="dot"></i>
+<strong>
+<a class="a3" href="http://www.xinhuanet.com/politics/leaders/2019-02/28/c_1124176936.htm" mon="ct=1&amp;a=1&amp;c=top&amp;pn=0" target="_blank">中央政治局同志向党中央和习近平总书记述职</a></strong>
+</li>
+<li class="hdline1">
+<i class="dot"></i>
+<strong>
+<a href="http://www.xinhuanet.com/politics/2019-02/28/c_1124176601.htm" mon="r=1" target="_blank">在新的起点上深化国家监察体制改革</a>
+</strong>
+</li>
+<li class="hdline2">
+<i class="dot"></i>
+<strong>
+<a class="a3" href="http://cpc.people.com.cn/n1/2019/0301/c419242-30951095.html" mon="ct=1&amp;a=1&amp;c=top&amp;pn=1" target="_blank">十三届全国政协履职工作一年综述</a></strong>
+</li>
+<li class="hdline3">
+<i class="dot"></i>
+<strong>
+<a href="http://www.xinhuanet.com/politics/2019-02/28/c_1124174692.htm" mon="r=1" target="_blank">重庆落实习近平总书记全国两会重要讲话精神纪实</a>
+</strong>
+</li>
+<li class="hdline4">
+<i class="dot"></i>
+<strong>
+<a class="a3" href="http://jingji.cctv.com/2019/02/28/ARTIZaPPwtGCRXFlkQ5yUR1Q190228.shtml" mon="ct=1&amp;a=1&amp;c=top&amp;pn=2" target="_blank">中国“稳外资”成色十足</a><i style="font-size: 12px"> </i><a class="a3" href="http://www.ce.cn/xwzx/gnsz/gdxw/201902/28/t20190228_31580109.shtml" mon="ct=1&amp;a=1&amp;c=top&amp;pn=2" target="_blank">开放，成就中国经济高度</a>
+</strong>
+</li>
+<li class="hdline5">
+<i class="dot"></i>
+<strong>
+<a href="http://news.gmw.cn/2019-02/28/content_32578009.htm" mon="r=1" target="_blank">吕春祥:以“专业”态度履行代表职责</a>
+<i style="font-size: 12px"> </i><a href="http://finance.chinanews.com/gn/z/2019quanguolianghui/index.shtml" mon="r=1" target="_blank">2019全国两会</a>
+</strong>
+</li>
+</ul>
+</div>
+<ul class="ulist focuslistnews">
+<li class="bold-item">
+<span class="dot"></span>
+<a href="http://www.xinhuanet.com/2019-03/01/c_1210070484.htm" mon="ct=1&amp;a=2&amp;c=top&amp;pn=1" target="_blank">姜成英:小橄榄牵着大民生</a> <a href="http://politics.people.com.cn/n1/2019/0301/c1001-30950973.html" mon="ct=1&amp;a=2&amp;c=top&amp;pn=1" target="_blank">我意识到肩上的责任</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/c4b13d/7KGg56ckCZ2?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=2" target="_blank">机构改革方案公布将满一年,改革任务3月底前完成</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/a4d1ef/7KGg1fe4r60?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=3" target="_blank">四部门为重点群体创业就业减税,明确适用方式</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/a4d1ef/7KGg2qTL07m?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=4" target="_blank">油价“四连涨”,多地92号汽油重回“7元时代”</a></li>
+<li>
+<a href="http://news.cctv.com/2019/03/01/ARTITONoAg8OEjvk8TwTuB7g190301.shtml?spm=C94212.PV1fmvPpJkJY.S71844.84" mon="ct=1&amp;a=2&amp;c=top&amp;pn=5" target="_blank">朝鲜深夜召开发布会:未要求解除所有对朝制裁</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626744365240305996" mon="ct=1&amp;a=2&amp;c=top&amp;pn=6" target="_blank">商务部首次回应中美第7轮经贸磋商:进一步扩大对外开放</a></li>
+</ul>
+<ul class="ulist focuslistnews">
+<li class="bold-item">
+<span class="dot"></span>
+<a href="http://baijiahao.baidu.com/s?id=1626754717210805090" mon="ct=1&amp;a=2&amp;c=top&amp;pn=7" target="_blank">大规模减税降费、外商投资法等将成两会热点话题</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626756568598803955" mon="ct=1&amp;a=2&amp;c=top&amp;pn=8" target="_blank">记者调查“寄血验子”中介,血样藏入小食品快递寄送</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626759773903963009" mon="ct=1&amp;a=2&amp;c=top&amp;pn=9" target="_blank">美方向中国归还361件流失文物艺术品,系由FBI查获</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626739295039000212" mon="ct=1&amp;a=2&amp;c=top&amp;pn=10" target="_blank">辅助用药遭炮轰,千亿元神药市场“萎缩”加速</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/298fbe/7KGmNytfAWc?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=11" target="_blank">WTO发布美国诉中国粮食补贴争端案报告,中方回应</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626744041296843458" mon="ct=1&amp;a=2&amp;c=top&amp;pn=12" target="_blank">借日本42天的《祭侄文稿》回台,台北故宫:将休息3年以上</a></li>
+</ul>
+<ul class="ulist focuslistnews">
+<li class="bold-item">
+<span class="dot"></span>
+<a href="https://3w.huanqiu.com/a/de583b/7KG1NjGmFkQ?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=13" target="_blank">涉嫌干涉司法,加拿大反对党要求总理特鲁多下台</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/de583b/7KG1I8gschi?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=14" target="_blank">脱欧陷僵局,英王室突访北爱呼吁"为公众利益"而努力</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626760382163594591" mon="ct=1&amp;a=2&amp;c=top&amp;pn=15" target="_blank">印媒:印度飞行员被俘前曾吞秘密文件,朝天开枪</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626760018155927440" mon="ct=1&amp;a=2&amp;c=top&amp;pn=16" target="_blank">索马里首都自杀式袭击致15死30伤,极端组织宣称负责</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/c36dc8/7KGku59GDpS?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=17" target="_blank">最离谱醉驾?俄罗斯货轮撞上韩国海上大桥</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/de583b/7KG1xz444XC?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=18" target="_blank">想薅广大网民羊毛?乌干达数百万网民因"社交税"弃网</a></li>
+</ul>
+<ul class="ulist focuslistnews">
+<li class="bold-item">
+<span class="dot"></span>
+<a href="http://baijiahao.baidu.com/s?id=1626764875260710471" mon="ct=1&amp;a=2&amp;c=top&amp;pn=19" target="_blank">ofo押金将变金币,可在商城买东西,你同意吗?</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626766074944660860" mon="ct=1&amp;a=2&amp;c=top&amp;pn=20" target="_blank">美媒:章莹颖案6月3日开审!法官再次敲定案件审理日期</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626767870372020256" mon="ct=1&amp;a=2&amp;c=top&amp;pn=21" target="_blank">明星电影片酬实锤:徐峥4000万,黄渤3000万,沈腾2000万</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626678116856896447" mon="ct=1&amp;a=2&amp;c=top&amp;pn=22" target="_blank">爸妈吵架萌娃双杀式劝架:你又肥又丑,妈妈看上你不容易</a></li>
+<li>
+<a href="https://3w.huanqiu.com/a/8f4dc5/7KGi7EW5XEI?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=23" target="_blank">郑州空姐顺风车遇害案判赔62万余元 被告:法院多判了一套房</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626765765479540298" mon="ct=1&amp;a=2&amp;c=top&amp;pn=24" target="_blank">屋漏偏逢连夜雨!贾跃亭的法拉第未来遭遇11起新诉讼</a></li>
+</ul>
+<ul class="ulist focuslistnews">
+<li class="bold-item">
+<span class="dot"></span>
+<a href="https://3w.huanqiu.com/a/44ed78/7KGlx99mAZG?agt=8" mon="ct=1&amp;a=2&amp;c=top&amp;pn=25" target="_blank">现实版"春晚黑心床垫",老人睡三个月全身起疱疹</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626759050722745155" mon="ct=1&amp;a=2&amp;c=top&amp;pn=26" target="_blank">指挥家安德烈·普列文去世,曾四次获奥斯卡电影配乐大奖</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626698690439764784" mon="ct=1&amp;a=2&amp;c=top&amp;pn=27" target="_blank">新娘对民警新郎的一句话让全场泪奔:感谢你抽空和我结婚</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626757322612991811" mon="ct=1&amp;a=2&amp;c=top&amp;pn=28" target="_blank">三星重返战场:首款折叠屏手机亮相乌镇,顶配S10定价破万</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626721057100497663" mon="ct=1&amp;a=2&amp;c=top&amp;pn=29" target="_blank">小米在美国专利诉讼引发"案中案":小米北美高管被指作伪证</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1626765955867085796" mon="ct=1&amp;a=2&amp;c=top&amp;pn=30" target="_blank">赌王退休后接班人首秀,2018入账293亿曾打败亲姐赢夺嫡之争</a></li>
+</ul>
+</div>
+<div class="mod-tab-pane pane-recommend" id="pane-recommend">
+<div class="mod-tab-loading">
+<i class="icon-loading"></i>
+<p class="desc">加载中请您耐心等待...</p>
+</div>
+<div class="tip-wrapper">
+<a class="mod-headline-tip" href="javascript:void(0);" id="tip" mon="m=53&amp;a=5">
+<i class="tip-logo"></i>
+<div class="tip-content">点击刷新，将会有未读推荐</div>
+</a>
+</div>
+<script type="text/javascript">
+            // 如果有图的文章出现白图的情况（图片大小小于10*10则视为白图），去掉图片展示
+            function checkimg(obj){
+                // console.log('obj.width: ' + obj.width);
+                if(obj.naturalWidth < 10){
+                    var picWrapper = obj.parentElement.parentElement;
+                    var item = obj.parentElement.parentElement.parentElement;
+                    // console.log('-------picWrapper');
+                    // console.dir(picWrapper);
+                    // console.log('-------item');
+                    // console.dir(item);
+                    picWrapper.style.display = 'none';
+                    if (item.className.search('notb') > -1){
+                        item.className = 'feeds-item-detail notb';
+                    } else {
+                        item.className = 'feeds-item-detail';
+                    }
+                }
+            }
+        </script>
+<div class="feeds" id="feeds"></div>
+<div class="feeds-more" id="feeds-more">
+<a href="javascript:void(0);" mon="m=53&amp;a=4" onclick="return false"><span>更多个性推荐新闻</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div alog-group="focus-top-right" class="l-right-col">
+<div alog-group="focustop-carousel" class="toparea-aside-top">
+<div class="imgplayer clearfix" id="imgplayer">
+<div class="carousel-control" id="imgplayer-control">
+<a class="carousel-btn-prev" href="javascript:void(0);" id="imgplayer-prev" mon="c=top&amp;a=50&amp;col=4&amp;ct=1&amp;pn=0">
+<span class="icon-wrap"></span>
+</a>
+<a class="carousel-btn-next" href="javascript:void(0);" id="imgplayer-next" mon="c=top&amp;a=52&amp;col=4&amp;ct=1&amp;pn=0">
+<span class="icon-wrap"></span>
+</a>
+</div>
+<div class="imgview" id="imgView">
+<a href="javascript:void(0);" target="_blank"></a>
+</div>
+<div class="imgnav-mask"></div>
+<div class="imgnav" id="imgNav">
+<a class="navbtn" href="javascript:void(0);" index="8" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=8">8</a>
+<a class="navbtn" href="javascript:void(0);" index="7" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=7">7</a>
+<a class="navbtn" href="javascript:void(0);" index="6" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=6">6</a>
+<a class="navbtn" href="javascript:void(0);" index="5" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=5">5</a>
+<a class="navbtn" href="javascript:void(0);" index="4" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=4">4</a>
+<a class="navbtn" href="javascript:void(0);" index="3" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=3">3</a>
+<a class="navbtn" href="javascript:void(0);" index="2" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=2">2</a>
+<a class="navbtn" href="javascript:void(0);" index="1" mon="c=top&amp;a=51&amp;col=4&amp;ct=1&amp;pn=1">1</a>
+</div>
+<div class="imgtit" id="imgTitle">
+<a href="javascript:void(0);" target="_blank"></a>
+</div>
+</div>
+<ul class="sub_19da">
+<a class="home-banner-cell left" href="http://theory.people.com.cn/GB/40557/407775/408045/"></a>
+<a class="home-banner-cell right" href="http://www.qstheory.cn/zt2017/xcgcdd19djs/index.htm"></a>
+</ul>
+<div class="sda_line">
+</div>
+</div>
+<div alog-group="focus-top-news-hotwords">
+<div class="mod h-bd-box" id="news-hotwords">
+<div class="hd line"><h3>热搜新闻词<span class="en">HOT WORDS</span></h3></div>
+<div class="bd">
+<ul class="hotwords clearfix">
+<li class="li_0 li_color_0 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E6%94%BF%E6%B2%BB%E5%B1%80%E5%90%8C%E5%BF%97%E5%90%91%E5%85%9A%E4%B8%AD%E5%A4%AE%E5%92%8C%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%80%BB%E4%B9%A6%E8%AE%B0%E8%BF%B0%E8%81%8C" mon="ct=1&amp;c=top&amp;a=30&amp;pn=1" target="_blank" title="中央政治局同志向党中央和习近平总书记述职">中央政治局同志<br/>向党中央和习近平<br/>总书记述职</a>
+</li>
+<li class="li_1 li_color_1 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E3%80%8A%E6%B1%82%E6%98%AF%E3%80%8B%E5%8F%91%E8%A1%A8%E4%B9%A0%E8%BF%91%E5%B9%B3%E9%87%8D%E8%A6%81%E6%96%87%E7%AB%A0" mon="ct=1&amp;c=top&amp;a=30&amp;pn=2" target="_blank" title="《求是》发表习近平重要文章">《求是》发表<br/>习近平重要文章</a>
+</li>
+<li class="li_2 li_color_2 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=3%E6%9C%88%E6%96%B0%E8%A7%84" mon="ct=1&amp;c=top&amp;a=30&amp;pn=3" target="_blank" title="3月新规">3月新规</a>
+</li>
+<li class="li_3 li_color_3 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E6%B2%B9%E4%BB%B7%E5%9B%9B%E8%BF%9E%E6%B6%A8" mon="ct=1&amp;c=top&amp;a=30&amp;pn=4" target="_blank" title="油价四连涨">油价<br/>四连涨</a>
+</li>
+<li class="li_4 li_color_4 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E5%85%B3%E9%97%AD%E9%97%A8%E5%BA%97" mon="ct=1&amp;c=top&amp;a=30&amp;pn=5" target="_blank" title="特斯拉关闭门店">特斯拉<br/>关闭门店</a>
+</li>
+<li class="li_5 li_color_5 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E4%B8%A4%E4%BC%9A%E7%83%AD%E7%82%B9%E8%AF%9D%E9%A2%98" mon="ct=1&amp;c=top&amp;a=30&amp;pn=6" target="_blank" title="两会热点话题">两会热点<br/>话题</a>
+</li>
+<li class="li_6 li_color_6 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E6%9C%9D%E7%BE%8E%E4%BC%9A%E6%99%A4" mon="ct=1&amp;c=top&amp;a=30&amp;pn=7" target="_blank" title="朝美会晤">朝美会晤</a>
+</li>
+<li class="li_7 li_color_7 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E5%8D%B0%E5%B7%B4%E5%86%B2%E7%AA%81" mon="ct=1&amp;c=top&amp;a=30&amp;pn=8" target="_blank" title="印巴冲突">印巴冲突</a>
+</li>
+<li class="li_8 li_color_8 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E4%BF%84%E8%B4%A7%E8%BD%AE%E9%86%89%E9%A9%BE%E6%92%9E%E5%A4%A7%E6%A1%A5" mon="ct=1&amp;c=top&amp;a=30&amp;pn=9" target="_blank" title="俄罗斯货轮醉驾撞大桥">俄罗斯货轮<br/>醉驾撞大桥</a>
+</li>
+<li class="li_9 li_color_9 button-slide">
+<a class="hotwords_li_a" href="https://www.baidu.com/s?wd=%E6%B5%B7%E8%88%AA%E8%BE%9F%E8%B0%A3%E7%A0%B4%E4%BA%A7%E4%BC%A0%E8%A8%80" mon="ct=1&amp;c=top&amp;a=30&amp;pn=10" target="_blank" title="海航辟谣破产传言">海航辟谣<br/>破产传言</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div alog-group="log-baijia" class="mod-baijia column clearfix" id="baijia">
+<div class="column-title-home">
+<div class="column-title-border">
+<h2>
+<span class="column-title">百家号</span>
+<span class="en">BAIJIA</span>
+</h2>
+<div class="sub-class">
+</div>
+</div>
+</div>
+<div alog-group="log-baijia-left-up" class="l-middle-col" style="height:305px;">
+<div class="imagearea">
+<div class="imagearea-top" style="height:164px;">
+<div class="image-mask-item">
+<a class="item-image" href="http://baijiahao.baidu.com/s?id=1626755161216633293" mon="&amp;a=12" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D28%2C0%2C496%2C333%3Bq%3D80%3B/sign=a9dd9457a34bd1131082ed72679d9c23/a71ea8d3fd1f4134f642755a2b1f95cad1c85e98.jpg)" target="_blank" title="ofo也许还能抢救一下？"></a>
+<a class="item-title" href="http://baijiahao.baidu.com/s?id=1626755161216633293" mon="&amp;a=9" target="_blank" title="ofo也许还能抢救一下？">ofo也许还能抢救一下？</a>
+</div>
+</div>
+<div class="imagearea-bottom">
+<div class="image-list-item">
+<a class="img" href="http://baijiahao.baidu.com/s?id=1626767573840890854" mon="&amp;a=12" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D13%2C0%2C334%2C224%3Bq%3D80%3B/sign=22955c585f0fd9f9b4580f29181ce706/1e30e924b899a9018565281213950a7b0208f546.jpg)" target="_blank" title="京东险着陆"></a><a class="txt" href="http://baijiahao.baidu.com/s?id=1626767573840890854" mon="&amp;a=9" target="_blank">京东险着陆</a>
+</div>
+<div class="image-list-item">
+<a class="img" href="http://baijiahao.baidu.com/s?id=1626718994882440221" mon="&amp;a=12" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D236%2C0%2C3353%2C2250%3Bq%3D80%3B/sign=9fb83a9f4910b912ab8eacbefecfcf35/d009b3de9c82d1589e1624958e0a19d8bc3e4279.jpg)" target="_blank" title="年底北京五环内信号全覆盖"></a><a class="txt" href="http://baijiahao.baidu.com/s?id=1626718994882440221" mon="&amp;a=9" target="_blank">年底北京五环内信号全覆盖</a>
+</div>
+</div>
+</div>
+</div>
+<div alog-group="log-baijia-right-up" class="l-right-col" style="width:290px;">
+<div class="baijia-focus-list">
+<ul class="ulist bdlist">
+<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1626711388908365354" mon="a=9" target="_blank">京东Q4财报超预期 但活跃用户同比跌惨</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626659961099776714" mon="a=9" target="_blank">美炒作华为安全问题 我大使：给华为做广告</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626677909959209641" mon="a=9" target="_blank">CNNIC：中国搜索引擎用户达6.81亿</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626677660153744509" mon="a=9" target="_blank">CNNIC：中国AI专利申请占全球43%</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626674845100098794" mon="a=9" target="_blank">CNNIC：中国快车专车用户达3.33亿</a></li>
+</ul>
+<ul class="ulist bdlist" style="padding-top:5px">
+<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1626677160499194036" mon="a=9" target="_blank">CNNIC：中国网购用户规模达6.1亿</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626616058470454921" mon="a=9" target="_blank">网易大调整：年前通知要晋升节后突然被裁</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626676574612170871" mon="a=9" target="_blank">今日头条“惹怒”七匹狼：误导消费者</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626674018326552094" mon="a=9" target="_blank">ofo增4条被执行人信息  总计1787万</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626674317027227042" mon="a=9" target="_blank">找钢网撤回在港上市申请</a></li>
+</ul>
+<ul class="ulist bdlist" style="padding-top:5px">
+<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1626644620946111924" mon="a=9" target="_blank">5亿刀转手一点资讯 凤凰新媒体5年赚9倍</a></li>
+<li><a href="https://baijiahao.baidu.com/s?id=1626672295069345544" mon="a=9" target="_blank">克隆猴是怎样出生的？</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626672163906608329" mon="a=9" target="_blank">锤子否认和ifunk推TNT笔记本</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626626213648762241" mon="a=9" target="_blank">暴风2018年实现净亏损10.90亿元</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626631287197088726" mon="a=9" target="_blank">人人车回应40亿资金支持：非政府直接投资</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1626634318278385746" mon="a=9" target="_blank">阿里巴巴北京总部鸟瞰图曝光</a></li>
+</ul>
+</div>
+</div>
+<div alog-group="log-baijia-left-down" class="l-middle-col">
+<div class="mod tbox" id="baijia-aside-recommend">
+<div class="bd" style="position:relative;height:160px;overflow:hidden;">
+<div class="imagearea">
+<div class="imagearea-top">
+<div class="image-mask-item">
+<a class="item-image" href="https://baijiahao.baidu.com/s?id=1626722294946107459&amp;wfr=content" mon="&amp;a=12" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D212%2C0%2C845%2C567%3Bq%3D80%3B/sign=5c5b86dacdfdfc03f137b9f8e90db6a6/7a899e510fb30f24d6009c27c695d143ad4b037f.jpg)" target="_blank" title="还在用遥控器？你out了！"></a>
+<a class="item-title" href="https://baijiahao.baidu.com/s?id=1626722294946107459&amp;wfr=content" mon="&amp;a=9" target="_blank" title="还在用遥控器？你out了！">还在用遥控器？你out了！</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mod-localnews column clearfix" id="local_news">
+<div alog-group="log-mil-title" class="column-title-home">
+<div class="column-title-border">
+<h2><span id="city_name"><span style="padding-right: 5px"><span>北京</span>新闻</span></span><span class="cname">LOCAL NEWS</span></h2>
+<div class="localnews_logo" id="localnews_logo"></div>
+<a class="select-btn" id="change-city">切换城市</a>
+<span id="p-more-link"></span>
+</div>
+</div>
+<div alog-group="log-local-left" class="l-left-col col-mod">
+<ul class="ulist focuslistnews" id="localnews-focus">
+</ul>
+</div>
+<div alog-group="log-local-middle" class="l-middle-col">
+<div class="mod">
+<div class="hd">
+<h3>新闻图片</h3>
+</div>
+<div class="bd">
+<div class="imagearea" id="local_default" style="display:block">
+<div class="imagearea-top">
+<div class="image-mask-item">
+<a class="item-image" href="" mon="&amp;pn=1&amp;a=12" target="_blank" title=""><img alt="" src=""/></a>
+<a class="item-title" href="" mon="&amp;pn=1&amp;a=9" target="_blank" title=""></a>
+</div>
+</div>
+</div>
+<div class="imagearea" id="local_current" style="display:none">
+<div class="imagearea-top" id="localnews-pic">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div alog-group="log-local-right" class="l-right-col">
+<div class="mod tbox" id="internet-aside-gsdt">
+<div class="hd line"><h3>新闻资讯</h3></div>
+<div class="bd" id="localnews-zixun">
+<ul class="ulist">
+</ul>
+</div>
+</div>
+</div>
+<div class="ad-banner" id="localNews_ad"></div>
+<div class="city_view" id="city_view">
+<div class="city_list"></div>
+<div class="btn_back" id="btn_back">返回</div>
+<div class="btn_close" id="btn_close"></div>
+<p class="city-tip">您所选城市新闻不足，将展示省会新闻</p>
+<div class="up_triangle"></div>
+</div>
+<div class="loading" id="status">正在加载，请稍候...</div>
+</div>
+<ul class="mod-sidebar" id="goTop">
+<li class="item report button-rotate" data-text="举报">
+<a href="http://report.12377.cn:13225/toreportinputNormal_anis.do">举报</a>
+</li>
+<li class="item qr-code button-rotate" data-text="二维码">
+<a href="javascript:void(0);">二维码</a>
+</li>
+<li class="qr-code-container clearfix">
+<span class="item-container left">
+<span class="img-container">
+<img src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/img/sidebar/1014720a_d31158d.png"/>
+</span>
+</span>
+<span class="item-container right">
+<p class="title">百度新闻客户端</p>
+<ul>
+<li>扫描二维码下载</li>
+<li>随时随地收看更多新闻</li>
+</ul>
+</span>
+</li>
+<li class="item favorite button-rotate" data-text="收藏本站">
+<a href="javascript:void(0);">收藏本站</a>
+</li>
+<li class="item search button-rotate" data-text="搜索">
+<a href="javascript:void(0);" id="search-btn">搜索</a>
+</li>
+<li class="item feedback button-rotate" data-text="用户反馈" id="feedbackbtn">
+<a href="javascript:void(0);">用户反馈</a>
+</li>
+<li class="item gotop">
+<a href="javascript:void(0);" id="gotop_btn" onclick="window.scroll(0, 0)"></a>
+</li>
+<li class="searchbox">
+<span class="close-btn"></span>
+<p>
+<input id="tn" name="tn" type="hidden" value="news"/>
+<input id="from" name="from" type="hidden" value="news"/>
+<input id="cl" name="cl" type="hidden" value="2"/>
+<input id="rn" name="rn" type="hidden" value="20"/>
+<input id="ct" name="ct" type="hidden" value="1"/>
+<input autocomplete="off" class="searchInput" maxlength="100" name="word" tabindex="1" type="text" value="输入搜索词"/>
+<button class="submit-btn" type="button">搜索</button>
+</p>
+</li>
+<li class="close-tip">收起<i class="arrow"></i></li>
+</ul>
+<style>
+#goTop{
+    position: fixed;
+    width: 54px;
+    left: 50%;
+    margin-left: 502px;
+    bottom: 20px;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop || document.body.scrollTop)+eval(document.documentElement.clientHeight || document.body.clientHeight)-361+'px');
+    z-index:998;
+}
+</style>
+</div>
+<div id="footerwrapper">
+<div alog-alias="hunter-start-bottombar" alog-group="log-footer-bottombar" class="bottombar">
+<div class="bottombar-inner clearfix">
+<div class="bot-left">
+<div class="title-container">
+<i class="icon"> </i>
+<h4>更多精彩内容</h4>
+</div>
+<div class="qrcode-container clearfix">
+<div class="img-container">
+<img src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/img/footer/1014720b_45d192d.png"/>
+</div>
+<div class="link-container">
+<a href="http://downpack.baidu.com/baidunews_AndroidPhone_1014720b.apk" target="_blank">Android版下载</a>
+<a href="https://itunes.apple.com/cn/app/id482820737" target="_blank">iPhone版下载</a>
+</div>
+<p class="info">扫描二维码, 收看更多新闻</p>
+</div>
+</div>
+<div class="bot-right">
+<div class="title-container">
+<i class="icon"> </i>
+<h4>百度新闻独家出品</h4>
+</div>
+<ol>
+<li>1. 新闻由机器选取每5分钟自动更新</li>
+<li>2. 百度新闻搜索源于互联网新闻网站和频道，系统自动分类排序</li>
+<li>3. 百度不刊登或转载任何完整的新闻内容</li>
+</ol>
+</div>
+</div>
+</div>
+<div style="font-size:12px;text-align:center;">
+责任编辑：胡彦BN098 刘石娟BN068 谢建BN085 李芳雨BN091 储信艳BN087 焦碧碧BN084 禤聪BN095 王鑫BN060 崔超BN071 违法和不良信息举报电话：400-921-6911</div>
+<div alog-alias="hunter-start-footer" alog-group="log-footer" id="footer">
+<a href="//news-bos.cdn.bcebos.com/mvideo/baidu_news_protocol.html">用户协议</a>
+<a href="https://www.baidu.com/duty/wise/wise_secretright.html">隐私策略</a>
+<a href="//help.baidu.com/newadd?prod_id=5&amp;category=1">投诉中心</a>
+<span>京公网安备11000002000001号</span>
+<a href="//news-bos.cdn.bcebos.com/mvideo/pcnews_licence.html">互联网新闻信息服务许可</a>
+<span>©2019Baidu</span>
+<a class="cy" href="//www.baidu.com/duty/">使用百度前必读</a>
+<a class="img-link img-link1" href="http://net.china.cn/chinese/index.htm" target="_blank">
+</a>
+<a class="img-link img-link2" href="http://www.cyberpolice.cn/wfjb/" target="_blank">
+</a>
+<a class="img-link img-link3" href="http://www.bjjubao.org/" target="_blank">
+</a>
+</div>
+</div>
+<style>
+.focustop-anchor{
+    height:0;
+    line-height:0;
+    font-size:0;
+}
+#headerwrapper{
+    width:100%;
+}
+</style>
+</body><script src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/lib/mod_b818356.js" type="text/javascript"></script>
+<script type="text/javascript">require.resourceMap({"res":{"common:widget/lib/tangram/base/base.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/tangram/base/base_c518988.js","pkg":"common:p0"},"common:widget/lib/magic/magic.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/magic_56edf31.js","pkg":"common:p0"},"common:widget/lib/magic/Base/Base.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/Base/Base_50a505e.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js"]},"common:widget/lib/magic/control/control.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/control/control_5c7cfca.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js"]},"common:widget/lib/magic/control/Layer/Layer.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/control/Layer/Layer_ccd8d01.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/Base/Base.js","common:widget/lib/magic/control/control.js"]},"common:widget/lib/magic/Mask/Mask.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/Mask/Mask_d1105f9.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/control/Layer/Layer.js"]},"common:widget/lib/magic/setup/setup.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/setup/setup_8207eff.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js"]},"common:widget/lib/magic/_query/_query.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/_query/_query_a974d80.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js"]},"common:widget/lib/magic/control/Tab/Tab.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/control/Tab/Tab_6e3b376.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/Base/Base.js","common:widget/lib/magic/control/control.js","common:widget/lib/magic/_query/_query.js"]},"common:widget/lib/magic/setup/tab/tab.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/setup/tab/tab_7ca296e.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/setup/setup.js","common:widget/lib/magic/control/Tab/Tab.js"]},"common:widget/lib/magic/control/Dialog/Dialog.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/control/Dialog/Dialog_c2b9c1a.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/control/Layer/Layer.js"]},"common:widget/lib/magic/Background/Background.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/Background/Background_353ebd3.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/Base/Base.js"]},"common:widget/lib/magic/Dialog/Dialog.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/Dialog/Dialog_239df5f.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/control/Dialog/Dialog.js","common:widget/lib/magic/Background/Background.js"]},"common:widget/lib/magic/control/Dialog/$mask/$mask.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/lib/magic/control/Dialog/$mask/$mask_50466b3.js","pkg":"common:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/control/Dialog/Dialog.js","common:widget/lib/magic/Mask/Mask.js"]},"common:widget/ui/jquery/jquery.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/jquery/jquery_5d7279d.js","pkg":"common:p1"},"common:widget/ui/jquery/jquery.cookie.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/jquery/jquery.cookie_e1f1479.js","pkg":"common:p1"},"common:widget/banner_ad/banner_ad.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/banner_ad/banner_ad_5c31727.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js","common:widget/ui/jquery/jquery.cookie.js"]},"common:widget/banner_ad/banner_ad_data.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/banner_ad/banner_ad_data_aff68ed.js","pkg":"common:p1"},"common:widget/dep/jQuery/plugins/jquery.lavalamp.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/dep/jQuery/plugins/jquery.lavalamp_5a9954b.js","pkg":"common:p1"},"common:widget/favorite/favorite.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/favorite/favorite_bfc0622.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js","common:widget/ui/jquery/jquery.cookie.js"]},"common:widget/feedback/feedback.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/feedback/feedback_6e10548.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js","common:widget/ui/jquery/jquery.cookie.js"]},"common:widget/fixedpannel/fixedpannel.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/fixedpannel/fixedpannel_bf4dc4c.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/magic/magic.js","common:widget/lib/magic/control/Layer/Layer.js","common:widget/lib/magic/Mask/Mask.js","common:widget/lib/magic/setup/tab/tab.js","common:widget/lib/magic/Dialog/Dialog.js"]},"common:widget/footer/statistics.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/footer/statistics_c6834ca.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js"]},"common:widget/header/header.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/header/header_c2a1ecd.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js"]},"common:widget/hunter/hunter.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/hunter/hunter_2113114.js","pkg":"common:p1"},"common:widget/navbar/navbar.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/navbar/navbar_3ad387b.js","pkg":"common:p1","deps":["common:widget/dep/jQuery/plugins/jquery.lavalamp.js","common:widget/ui/jquery/jquery.js"]},"common:widget/searchbox/searchbox.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/searchbox/searchbox_5300161.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js"]},"common:widget/searchbox/searchboxActive.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/searchbox/searchboxActive_f139a7f.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js"]},"common:widget/searchbox/searchradio.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/searchbox/searchradio_e67ae37.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js"]},"common:widget/second_navbar/fold.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/second_navbar/fold_b1dea17.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js"]},"common:widget/show_top_qrcode/show_top_qrcode.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/show_top_qrcode/show_top_qrcode_db04dfa.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js"]},"common:widget/sidebar/sidebar.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/sidebar/sidebar_986714b.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js","common:widget/feedback/feedback.js"]},"common:widget/ui/jquery/jquery-ui.min.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/jquery/jquery-ui.min_793696a.js","pkg":"common:p1"},"common:widget/ui/jquery/jquery.animateEvents.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/jquery/jquery.animateEvents_fa2738c.js","pkg":"common:p1"},"common:widget/ui/vs/vs.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/vs_ac8f6e6.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js"]},"common:widget/ui/vs/observer/observer.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/observer/observer_7031f75.js","pkg":"common:p1"},"common:widget/ui/vs/ContentPlayer/ContentPlayer.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/ContentPlayer/ContentPlayer_cfa437e.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js","common:widget/ui/vs/vs.js","common:widget/ui/vs/observer/observer.js"]},"common:widget/ui/vs/DynamicList/DynamicList.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/DynamicList/DynamicList_757360e.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js","common:widget/ui/vs/vs.js","common:widget/ui/vs/observer/observer.js"]},"common:widget/ui/vs/ScrollView/ScrollView.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/ScrollView/ScrollView_e529192.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js","common:widget/ui/vs/vs.js"]},"common:widget/ui/vs/Slide/Slide.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/Slide/Slide_bcb1535.js","pkg":"common:p1","deps":["common:widget/ui/jquery/jquery.js"]},"common:widget/ui/vs/citylist/citylist.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/citylist/citylist_39082c3.js","pkg":"common:p1"},"common:widget/ui/vs/clickMonitor/clickMonitor.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/clickMonitor/clickMonitor_3b94ea0.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js"]},"common:widget/ui/vs/delayload/delayload.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/delayload/delayload_360bc2c.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js"]},"common:widget/ui/vs/enterState/enterState.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/enterState/enterState_00c9971.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js"]},"common:widget/ui/vs/imgLazyLoad/ImglazyLoad.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/imgLazyLoad/ImglazyLoad_f2b8599.js","pkg":"common:p1"},"common:widget/ui/vs/slider/slider.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/slider/slider_32bdf45.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js"]},"common:widget/ui/vs/suggestion/suggestion.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/suggestion/suggestion_77ff0a1.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js"]},"common:widget/ui/vs/utils/utils.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/common/widget/ui/vs/utils/utils_73e2453.js","pkg":"common:p1"},"news:widget/HouseNews/HouseNews.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/HouseNews/HouseNews_4ceed49.js","pkg":"news:p0","deps":["common:widget/ui/vs/DynamicList/DynamicList.js","common:widget/ui/vs/vs.js","common:widget/lib/tangram/base/base.js","common:widget/ui/vs/citylist/citylist.js","common:widget/ui/jquery/jquery.js"]},"news:widget/LocalNews/LocalNews.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/LocalNews/LocalNews_e5984a9.js","pkg":"news:p0","deps":["common:widget/ui/vs/DynamicList/DynamicList.js","common:widget/ui/vs/vs.js","common:widget/lib/tangram/base/base.js","common:widget/ui/vs/citylist/citylist.js","common:widget/ui/jquery/jquery.js"]},"news:widget/TopBanner/TopBanner.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/TopBanner/TopBanner_6f86843.js","pkg":"news:p0","deps":["common:widget/ui/jquery/jquery.js"]},"news:widget/col_media/col_media.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/col_media/col_media_c2b0b0c.js","pkg":"news:p0"},"news:widget/events/events.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/events/events_b4e3140.js","pkg":"news:p0"},"news:widget/hotrollnews/hotrollnews.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/hotrollnews/hotrollnews_debd370.js","pkg":"news:p0","deps":["common:widget/lib/tangram/base/base.js"]},"news:widget/hotwords/hotwords.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/hotwords/hotwords_85ad191.js","pkg":"news:p0","deps":["common:widget/ui/jquery/jquery.js"]},"news:widget/hx_stock/hx_stock.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/hx_stock/hx_stock_71853d1.js","pkg":"news:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/ui/vs/vs.js"]},"news:widget/mod_baijia/mod_baijia.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/mod_baijia/mod_baijia_471a804.js","pkg":"news:p0","deps":["common:widget/lib/tangram/base/base.js"]},"news:widget/mod_headline_tab/mod_headline_recommend.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/mod_headline_tab/mod_headline_recommend_15dbeeb.js","pkg":"news:p0","deps":["common:widget/ui/jquery/jquery.js"]},"news:widget/mod_headline_tab/mod_headline_tab.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/mod_headline_tab/mod_headline_tab_7304c05.js","pkg":"news:p0","deps":["common:widget/ui/jquery/jquery.js","common:widget/ui/jquery/jquery.cookie.js","news:widget/mod_headline_tab/mod_headline_recommend.js"]},"news:widget/mod_pagination/mod_pagination.js":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/news/widget/mod_pagination/mod_pagination_20b212d.js","pkg":"news:p0"}},"pkg":{"common:p0":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/framework_static_include/framework_static_include_aa59e0d.js"},"common:p1":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/module_static_include/module_static_include_de88713.js"},"news:p0":{"url":"//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/news/focustop/focustop_b924ecb.js"}}});</script><script src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/news/focustop/focustop_b924ecb.js" type="text/javascript"></script>
+<script src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/framework_static_include/framework_static_include_aa59e0d.js" type="text/javascript"></script>
+<script src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/module_static_include/module_static_include_de88713.js" type="text/javascript"></script>
+<script type="text/javascript">!function(){    	void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+      void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+	}();
+!function(){		alog('speed.set', 'ht', +new Date);
+	}();
+!function(){		var widgetList = ['civilnews', 'InternationalNews',  'EnterNews', 'SportNews', 'FinanceNews', 'TechNews', 'MilitaryNews','InternetNews',   'DiscoveryNews',  'LadyNews', 'HealthNews',   'PicWall'];
+		var remainWigetList = $.extend(true, [], widgetList);
+		var widgetStatus = (function () {
+			var list = {};
+			for (var i in widgetList) {
+				list[widgetList[i]] = false;
+
+				// 是否渲染的标志
+				list[widgetList[i]+'rendered'] = false;
+			}
+			return list;
+		})();
+
+		var widgetRenderFlag = [];
+
+
+		var appendWidget = function (widgetName, widgetDom) {
+			// 保证栏目按widgetList的顺序append到#body上
+			// 渲染逻辑重构2018-04-09
+			if(widgetStatus[widgetName+'rendered']){
+				return false
+			}else{
+				var dom = $('<div>'+widgetDom+'</div>').addClass(widgetName);
+				if(widgetRenderFlag.length != 0){
+					$(widgetList).each(function(idx,ele){
+						if(ele === widgetName){
+							if(widgetRenderFlag.length == 1){
+								if(idx > widgetRenderFlag[0].originIndex){
+									$('.'+widgetRenderFlag[0].name).after(dom)
+									widgetRenderFlag.push({
+										name:widgetName,
+										originIndex:idx
+									})
+								}else{
+									$('.'+widgetRenderFlag[0].name).before(dom)
+									widgetRenderFlag.unshift({
+										name:widgetName,
+										originIndex:idx
+									})
+								}
+							}else{
+								var wrflast = widgetRenderFlag[widgetRenderFlag.length - 1];
+								var wrfirst = widgetRenderFlag[0];
+
+								if(idx > wrflast.originIndex){
+									$('.'+wrflast.name).after(dom);
+									widgetRenderFlag.push({
+										name:widgetName,
+										originIndex:idx
+									});
+								} else if(idx < wrfirst.originIndex){
+									$('.'+wrfirst.name).before(dom);
+									widgetRenderFlag.unshift({
+										name:widgetName,
+										originIndex:idx
+									});
+
+								} else {
+
+									$(widgetRenderFlag).each(function(idx1,ele1){
+										if(idx > ele1.originIndex && idx < widgetRenderFlag[idx1 + 1].originIndex){
+											// 数组插入
+											$('.'+widgetRenderFlag[idx1].name).after(dom)
+											widgetRenderFlag.splice(idx1+1,0,{
+												name:widgetName,
+												originIndex:idx
+											})
+
+											return false;
+											
+										}								
+									})
+								}
+							}
+
+							
+						}
+						
+					})
+					
+				}else{
+					$(body).append(dom);
+					$(widgetList).each(function(idx,ele){
+						if(ele === widgetName){
+							widgetRenderFlag.push({
+								name:widgetName,
+								originIndex:idx
+							});
+						}
+					})
+				}
+				
+				widgetStatus[widgetName+'rendered'] = true;
+				
+					
+			}	
+		}
+
+		var renderWidget = function (widgetName) {
+			$.ajax({
+				url: '/widget',
+				type: 'GET',
+				dataType: 'html',
+				data: {
+					id: widgetName,
+					/*ajax: 'json',*/
+					// 时间戳，防止ie6缓存ajax请求导致第二次不请求数据
+					t: new Date().getTime()
+				},
+				timeout: 5000
+			}).done(function (data) {
+					appendWidget(widgetName, data);
+			});
+		}
+		var getLoadingWidgetName = function () {
+			return remainWigetList.shift();
+		}
+		var isChrome = navigator.userAgent.indexOf("Chrome") > -1;
+		var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+		window.onscroll = function () {
+			var body = $('body');
+			var height = body.height();
+			var scrollTop = get_scrollTop();
+			
+			if (scrollTop > 1) {
+				widgetName = getLoadingWidgetName();
+
+				if (widgetStatus[widgetName] === false) {
+					widgetStatus[widgetName] = true;
+					renderWidget(widgetName);
+				}
+			}
+		}
+		function get_scrollTop() {
+                    var scrollTop;
+                    if (typeof window.pageYOffset != 'undefined') { //pageYOffset指的是滚动条顶部到网页顶部的距离
+                        scrollTop = window.pageYOffset;
+                    } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+                        scrollTop = document.documentElement.scrollTop;
+                    } else if (typeof document.body != 'undefined') {
+                        scrollTop = document.body.scrollTop;
+                    }
+                    return scrollTop;
+                }
+	}();
+!function(){		$(function () {
+			$.ajax({
+				url: '/passport',
+				type: 'GET',
+				dataType: 'json',
+				timeout: 5000
+			}).done(function (data) {
+				var userName = '';
+				var isLogin = false;
+				if(data.errno ===0 && data.data && data.data.displayname) {
+					isLogin = true;
+					userName = data.data.displayname;
+				}
+				window['isLogin'] = isLogin;
+				require.async("common:widget/ui/vs/enterState/enterState.js", function (enterState) {
+					enterState(userName, "")
+				});
+			});
+		})
+	}();
+!function(){	window.onbeforeunload = function(e){
+		window.scrollTo(0,0);
+	}
+	}();
+!function(){    require.async('news:widget/events/events.js', function (event) {
+        event.init();
+    });
+}();
+!function(){    require.async(['common:widget/header/header.js'],
+        function (mod) {
+            mod.init();
+        }
+    );
+}();
+!function(){	require.async('common:widget/show_top_qrcode/show_top_qrcode.js', function(showqrcode) {
+		showqrcode.init();
+	});
+}();
+!function(){    require.async(["common:widget/lib/tangram/base/base.js", "common:widget/searchbox/searchbox.js", "common:widget/ui/vs/suggestion/suggestion.js"], function(baidu,searchbox,suggestion){
+        baidu.dom.ready(function(){
+            searchbox.searchbox();
+            searchbox.searchnews();
+            if (navigator.cookieEnabled && !/sug?=0/.test(document.cookie)){
+                    suggestion();
+            }
+        });
+    });
+}();
+!function(){    require.async(['common:widget/searchbox/searchradio.js', 'common:widget/searchbox/searchboxActive.js'], function(searchRadio, searchboxActive) {
+        searchRadio();
+        searchboxActive();
+    });
+}();
+!function(){require.async(['common:widget/navbar/navbar.js'],
+function (mod) {
+mod.init();
+}
+);
+}();
+!function(){    require.async(['common:widget/ui/jquery/jquery.js', 'news:widget/TopBanner/TopBanner.js'], function($, module){
+        $(function(){
+			module.loadTopAD();
+        });
+    });
+}();
+!function(){		var extraInfo = {
+			m: 11,
+			c: 'top'
+		};
+		require.async('common:widget/ui/vs/clickMonitor/clickMonitor.js', function(clickMonitor){
+		    clickMonitor.init('TOP');
+		});
+	    require.async(['common:widget/lib/tangram/base/base.js', 'common:widget/ui/vs/delayload/delayload.js'],function(baidu,delayload){
+	      baidu.dom.ready(function(){
+	        //图片延迟加载
+	        var delay=new delayload();
+
+	        delay.init();
+	        delay.delayLoader(1);
+	        delay.bindUI();
+	      });
+	    });
+
+		var PAGE_DATA = {
+		    "guess_list_num": 0,
+		    "guess_jsonp_status" : true
+		};
+	}();
+!function(){        require.async('news:widget/mod_headline_tab/mod_headline_tab.js', function (Tab) {
+            $(function () {
+                var tab = new Tab(0);
+                tab.init();
+            });
+        });
+    }();
+!function(){  require.async(["common:widget/lib/tangram/base/base.js", "common:widget/ui/vs/ContentPlayer/ContentPlayer.js"], function(T, I) {
+    var G = T.dom.g;
+    var on = T.event.on;
+    var imgList = [];
+    var cpOptions_1 = {
+      getBtns: function(){
+        var a, btns;
+            btns = G('imgNav').getElementsByTagName('a');
+            a = [];
+            for(var i=btns.length - 1; i>=0; i--){
+                a.push(btns[i]);
+            }
+            return a;
+      },
+      mainViewContainer: G('imgView'),
+      prevBtn: G('imgplayer-prev'),
+      nextBtn: G('imgplayer-next'),
+      changeAction: 'mouseover',
+      subViewContainer: G('imgTitle'),
+      style: {on: 'active', off: ''},
+      mainViewTpl: '<a href="#{url}" target="_blank" mon="c=top&a=12&col=4&pn=#{index}"><img src="#{imgUrl}"></a>',
+      subViewTpl: '<a href="#{url}" target="_blank" mon="col=4&a=9&ct=1&pn=#{index}"><strong>#{title}</strong>#{abs}</a>',
+      curIndex: 0,
+      data: [],
+      interval: 5000
+    };
+  
+                          cpOptions_1.data.push({
+          "index": 1,
+          //"title": "乡村振兴好风景",
+          "title": "乡村振兴好风景",
+          "url": "http:\/\/cppcc.china.com.cn\/2019-02\/28\/content_74512560.htm",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=201943b3c311728b362d8822f8fcc3b3\/024f78f0f736afc38828f347bd19ebc4b74512e8.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"http:\/\/cppcc.china.com.cn\/2019-02\/28\/content_74512560.htm"});
+                                cpOptions_1.data.push({
+          "index": 2,
+          //"title": "世界移动通信大会闭幕,5G成最热话题",
+          "title": "世界移动通信大会闭幕,5G成最热话题",
+          "url": "http:\/\/www.xinhuanet.com\/photo\/2019-03\/01\/c_1124178245.htm",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=2721191c75f40ad113e4c3e3672c1151\/2934349b033b5bb5e4b00eda38d3d539b600bcaa.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"http:\/\/www.xinhuanet.com\/photo\/2019-03\/01\/c_1124178245.htm"});
+                                cpOptions_1.data.push({
+          "index": 3,
+          //"title": "北京香山公园蜡梅初绽放,预计3月进入盛花期",
+          "title": "北京香山公园蜡梅初绽放,预计3月进入盛花期",
+          "url": "http:\/\/city.cri.cn\/20190301\/4778262f-f6ec-10d1-daa4-dea5337a35b0-4.html",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=513df2fb78094b36dd921fed93cd7c00\/9358d109b3de9c82b1c8f5ab6281800a19d84360.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"http:\/\/city.cri.cn\/20190301\/4778262f-f6ec-10d1-daa4-dea5337a35b0-4.html"});
+                                cpOptions_1.data.push({
+          "index": 4,
+          //"title": "武汉出现邂逅餐厅,单身男女打开机关就能相见",
+          "title": "武汉出现邂逅餐厅,单身男女打开机关就能相见",
+          "url": "https:\/\/kandian.youth.cn\/index\/detail?sign=rgEVBG8eJ7Qm5dW&ipage=4",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=0cd712e015d5ad6eacf960eab1ca39a3\/f703738da97739126dd7ac45f6198618367ae225.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"https:\/\/kandian.youth.cn\/index\/detail?sign=rgEVBG8eJ7Qm5dW&ipage=4"});
+                                cpOptions_1.data.push({
+          "index": 5,
+          //"title": "不一样的我们，一样的拥抱",
+          "title": "不一样的我们，一样的拥抱",
+          "url": "http:\/\/www.xinhuanet.com\/photo\/2019-03\/01\/c_1124178204.htm",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=9868311d4536acaf5fe092fc4cd88d03\/d009b3de9c82d1589f382b958e0a19d8bc3e425f.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"http:\/\/www.xinhuanet.com\/photo\/2019-03\/01\/c_1124178204.htm"});
+                                cpOptions_1.data.push({
+          "index": 6,
+          //"title": "美国迎暴雪天气,扫雪机器人软萌上路清雪",
+          "title": "美国迎暴雪天气,扫雪机器人软萌上路清雪",
+          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/03-01\/869725.shtml",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=150224ccb23eb13542c7b3bb961ea8cb\/d1160924ab18972b410f08eee8cd7b899e510ad8.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/03-01\/869725.shtml"});
+                                cpOptions_1.data.push({
+          "index": 7,
+          //"title": "上海&quot;白鲸姐妹花&quot;谢幕演出,将旅行9000公里回归海洋",
+          "title": "上海\x22白鲸姐妹花\x22谢幕演出,将旅行9000公里回归海洋",
+          "url": "http:\/\/pic.people.com.cn\/n1\/2019\/0301\/c1016-30951917.html",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=754f89088901a18bf6eb164fae2e0761\/0b46f21fbe096b6308bf517402338744ebf8ac74.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"http:\/\/pic.people.com.cn\/n1\/2019\/0301\/c1016-30951917.html"});
+                                cpOptions_1.data.push({
+          "index": 8,
+          //"title": "迈克尔·杰克逊“梦幻庄园”重新出售,降价近70%",
+          "title": "迈克尔·杰克逊“梦幻庄园”重新出售,降价近70%",
+          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/03-01\/869722.shtml",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=bb8fdeec144c510fa8c4e61a50582528\/3801213fb80e7bec682c03c5212eb9389b506b1b.jpg",
+          "abs": "",
+          "meadia": ""
+        });
+        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/03-01\/869722.shtml"});
+            
+    var index = 0 ;
+    var url = location.href.substr(location.href.indexOf("?")+1).split("&");
+    var key ;
+    for(var i = 0 ; i < url.length ; i++){
+       var tmp = url[i].split("=");
+       if(tmp&&tmp.length>0&&tmp[0]=="lb"){
+           key = tmp[1];
+       }
+    }
+    for(var p in imgList){
+       if(imgList[p].url == key){
+           index = p ;
+       }
+    }
+    cpOptions_1.curIndex = index;
+    var cp_1 = new I.Model(cpOptions_1);
+
+    on(window, 'load', function(){
+       cp_1.play(index+1);
+    });
+
+    var controlers = baidu.dom.query('#imgNav a');
+    baidu.each(controlers, function(item,i){
+        baidu.on(item,'mouseover',function(e){
+            UserMonitor.send(e, 6, {c: "top", a:"51", col: "4", ct: "1", m: "11", pn: 8-i});
+            window.alog && alog("monkey.fire", "record", {
+                type: "click",
+                target: item
+            });
+        });
+    });
+  });
+}();
+!function(){
+    /*var ___lis___ = $(".hotwords li"),___images___ = $('.hotwords img'),___words___=$('.hotwords_li_a');
+    $.each(___images___,function(i,item){
+        var $item = $(item),
+        src = $item.attr('m_m_src'),
+        _img = new Image();
+        _img.onload = function(){
+
+            $item.attr('src', src);
+            if(_img.width > _img.height){
+                if($item.parents('li').width() > 68){
+                    $item.css('width', '139px');
+                }else{
+                    $item.css('height', '68px');
+
+                }
+            }else{
+                $item.css('width',$item.parents('li').width());
+            }
+            _img.onload = null;
+        }
+        _img.src = src;
+    });
+    $.each(___lis___,function(i,item){
+        $(item).mouseenter(function(e){
+        $('.detail',this).animate({top:'0px'},200,function(){});
+
+        });
+        $(item).mouseleave(function(e){
+        $('.detail',this).animate({top:'68px'},200,function(){});
+        });
+    });
+    $.each(___words___, function(i, item) {
+        $(item).find('img').length == 0 && $(item).css({"padding-top": (68 - item.offsetHeight)/2 + "px"}) || $(item).css({"padding": 0, 'width':$(item).width()+9+'px'});
+        $(item).css({
+            "visibility": "visible"
+        });
+    });*/
+
+
+
+    require.async('news:widget/hotwords/hotwords.js', function (mod) {
+        mod.init();
+    });
+
+}();
+!function(){    require.async('news:widget/mod_baijia/mod_baijia.js', function(tab){
+       var tab =  new tab({
+            container : 'nba-tab',
+            event : 'mouseover'
+       }).setup();
+    });
+}();
+!function(){	    void function(e,t){for(var n=t.getElementsByTagName("img"),a=+new Date,i=[],o=function(){this.removeEventListener&&this.removeEventListener("load",o,!1),i.push({img:this,time:+new Date})},s=0;s<n.length;s++)!function(){var e=n[s];e.addEventListener?!e.complete&&e.addEventListener("load",o,!1):e.attachEvent&&e.attachEvent("onreadystatechange",function(){"complete"==e.readyState&&o.call(e,o)})}();alog("speed.set",{fsItems:i,fs:a})}(window,document);
+	}();
+!function(){    require.async('news:widget/LocalNews/LocalNews.js', function(initLocalHotNews){
+
+        //地方新闻和各地房产新闻共享LocalNewsConfig配置
+        window.LocalNewsConfig = {
+            cookieName: 'LOCALGX',
+            cookieDomain: 'news.baidu.com',
+            defaultFailedLocalCity: '北京',
+            defaultLocalCityID:0,
+            defaultHouseCity: '北京',
+            defaultFailedHouseCity: '各地',
+            htmlTpl: {
+                more_link: '',
+                more_link_sh: '<a target="_blank" href="/sh" id="more-link" style="visibility: visible;"></a> ',
+                city_list: '<a href="javascript:void(0);" mon="col=10&locname=#{city_name}&locid=#{locID}" prop="#{prop}">#{title}</a> ',
+                city_name_link: '<b>#{city_name}</b>新闻',
+                city_name_link_sh: '<a href="/sh" target="_blank" class="#{class_name}"><b>#{city_name}</b>新闻</a>',
+                city_name_no_link: '<b>#{city_name}</b>新闻',
+                local_news: '<li><span class="num num-#{index}">#{index_pad}</span><a href="#{url}" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank">#{title}</a></li>',
+                //local_news_sh: '<li><span class="num num-#{index}">#{index_pad}</span><a href="/sh" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank">#{title}</a></li>',
+                house_news: '<li><span class="num num-#{index}">#{index_pad}</span><a href="#{url}" mon="c=housenews&ct=0&a=27&col=9" target="_blank">#{title}</a></li>',
+                local_news_top : '<li class="top-localnews"><h4><a href="#{url}" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank">#{title}</a></h4><p><a href="#{url}" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank"><img src="#{imgUrl}"></a>#{abs}</p></li>',
+                local_news_top_noimg : '<li class="top-localnews" style="height:80px"><h4><a href="#{url}" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank">#{title}</a></h4><p>#{abs}</p></li>',
+                focus : '<li><a href="#{url}" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank">#{title}</a></li>',
+                focus_bold : '<li class="bold-item"><span class="dot"></span><a href="#{url}" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank">#{title}</a></li>',
+                pic : '<div class="image-mask-item"><a href="#{url}" target="_blank" class="item-image" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}"><img src="#{imgUrl}"/></a><a href="#{url}" target="_blank" class="item-title" mon="">#{title}</a></div>',
+                other : '<li><a href="#{url}" mon="c=civilnews&ct=0&a=27&col=8&locname=#{city_name}&locid=#{locID}" target="_blank">#{title}</a></li>'
+            },
+            timeout: 5000
+        }
+        initLocalHotNews({
+            pageType: 'TOP',
+            request: {
+                url: '/n?m=rddata&v=index_data&rn1=17',
+                callback : 'bdNewsJsonCallBack'
+            },
+            //data: city.localCities,
+            triggerLevel: 2,
+            statusID: 'status',
+            cityNameID: 'city_name',
+            logoID: 'localnews_logo',
+            pmoreLinkID: 'p-more-link',
+            moreLinkID: 'more-link',
+            cityViewID: 'city_view',
+            changeCityID: 'change-city',
+            closeBtnID: 'btn_close',
+            backBtnID: 'btn_back',
+            localNewsID:{
+                focus : 'localnews-focus',
+                pic : 'localnews-pic',
+                other :'localnews-zixun',
+                ad:'localNews_ad'
+            },
+            maxItemsShown: 10,
+            timeout: LocalNewsConfig.timeout
+        });
+    });
+}();
+!function(){require.async(['common:widget/sidebar/sidebar.js'],
+    function (Sidebar) {
+        $(function () {
+            var sidebar = new Sidebar();
+            sidebar.init();
+        });
+    }
+);
+}();
+!function(){    require.async(['common:widget/footer/statistics.js'], function (mod) {
+        // 页面加载后，向biglog发送一个pv统计，传入hostname区分产品和频道
+        mod.postReferToBiglog();
+        // 页面加载后，初始化发送往百度统计的打点
+        mod.initClickPostToTongji();
+        // 页面加载后，向百度统计发送页面的refer
+        mod.postReferToTongji();
+    });
+}();
+!function(){   	document.write("<img src='/nocache/mp/b.jpg?cmd=1&class=technnews&cy=0&"+Math.random()+"' style='display:none;'>");
+     <!-- document.write("<img id='cgif' src='http://ccccccc.baidu.com/c.gif?t=5&p=2&"+Math.random()+"' style='display:none'>"); -->
+   58  }();
+!function(){	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe9e114d958ea263de46e080563e254c4' type='text/javascript'%3E%3C/script%3E"));
+}();
+!function(){	require.async('common:widget/lib/tangram/base/base.js',function(baidu){
+	    baidu.each(baidu.dom.query('img'),function(item){	
+	        if(/eiv.baidu.com\/hmt\/icon/.test(baidu.dom.getAttr(item, 'src'))){
+	            item.style.display = 'none';		
+	        }
+	    });
+	});
+}();
+!function(){    require.async(['common:widget/hunter/hunter.js'],
+        function (mod) {
+            if (location.search.indexOf('hunterrandom=0') >= 0) {
+                // url的search中有 hunterrandom=0 则忽略限流
+                mod.init(73791);
+            } else if (parseInt(Math.random().toString().slice(2)) % 10 === 0) {
+                // 限制流量，只传10%的统计量
+                mod.init(73791);
+            }
+        }
+    );
+}();
+!function(){        $(function() {
+            alog('speed.set', 'drt', +new Date);
+        });
+
+        window.alogObjectConfig = {
+            product: '107',
+            page: 'newspc_107',
+
+            // 性能
+            speed: {
+                sample: '0.15'
+            },
+
+            // js异常
+            exception: {
+                sample: '0.08'
+            },
+
+            // 新特性
+            feature: {
+                sample: '0.08'
+            },
+
+            csp: {
+                sample: '0.15',
+                'default-src': [
+                    {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                    {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                    {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                    {match: '*', target: 'Accept,Warn'}
+                ]
+            }
+        };
+				void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+    }();
+!function(){        $.ready(function() {
+            alog('speed.set', 'drt', +new Date);
+        });
+    }();</script></html>

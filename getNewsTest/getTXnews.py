@@ -25,6 +25,10 @@ class GetTiebaInfo(object):
         wbdata = requests.get(url).text
         # 对获取到的文本进行解析
         soup = BeautifulSoup(wbdata, 'lxml')
+        # 保存页面内容
+        fileName = u'获取新闻页面内容文件' + time.strftime('%Y-%m-%d', time.localtime()) + '.txt'.encode('GBK')
+        with open(fileName, 'w') as fp:
+            fp.write(soup.encode('utf8'))
         # 从解析文件中通过select选择器定位指定的元素，返回一个列表
         news_titles = soup.select("div.text > em.f14 > a.linkto")
         #
