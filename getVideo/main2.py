@@ -4,7 +4,7 @@
 
 import urllib2
 import os.path
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #安装bs4
 import time
 import requests
 import sys
