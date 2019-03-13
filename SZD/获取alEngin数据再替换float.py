@@ -5,8 +5,7 @@ import pymysql #mysql-python模块
 
 
 conn= pymysql.connect(
-        # host='192.168.3.115',
-        host='211.153.22.29',
+        host='192.168.3.115',
         port = 3306,
         user='root',
         passwd='love431',
