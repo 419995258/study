@@ -5,7 +5,8 @@ import pymysql #mysql-python模块
 
 
 conn= pymysql.connect(
-        host='192.168.3.115',
+        # host='192.168.3.115',
+        host='211.153.22.29',
         port = 3306,
         user='root',
         passwd='love431',
@@ -28,7 +29,7 @@ for i,row in enumerate(result):
     # print(str(id) + ":" + str(newContent))
     content = content.replace('float:left;','')
     # 更新这条语句
-    upSql = """ update al_res_danxuan_choice t set t.CONTENT = %s where t.choice_id = %s """
+    upSql = """ update al_res_tiankong_item t set t.CONTENT = %s where t.item_id = %s """
     upresult = cursor.execute(upSql,(content,id))
 
     # print(upresult)

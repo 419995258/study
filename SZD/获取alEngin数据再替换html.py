@@ -5,7 +5,8 @@ import pymysql #mysql-python模块
 
 
 conn= pymysql.connect(
-        host='192.168.3.115',
+        # host='192.168.3.115',
+        host='211.153.22.29',
         port = 3306,
         user='root',
         passwd='love431',
@@ -15,6 +16,7 @@ conn= pymysql.connect(
 cursor = conn.cursor()
 
 sql = "select t.CHOICE_ID,t.CONTENT from al_res_danxuan_choice t where  t.CONTENT like '<html%' "
+# sql = "select t.ITEM_ID,t.CONTENT from al_res_danxuan_item t where  t.CONTENT like '<html%' "
 
 
 # 循环获取数据并保存数据
@@ -34,6 +36,7 @@ for i,row in enumerate(result):
         # print(str(id) + ":" + str(newContent))
         # 更新这条语句
         upSql = """ update al_res_danxuan_choice t set t.CONTENT = %s where t.choice_id = %s """
+        # upSql = """ update al_res_danxuan_item t set t.CONTENT = %s where t.ITEM_ID = %s """
         upresult = cursor.execute(upSql, (str(newContent), id))
         # print(upresult)
         print("当前执行为:" + str(i + 1) + "/" + str(len(result)))
