@@ -11,28 +11,29 @@ conn= pymysql.connect(
         port = 3306,
         user='root',
         passwd='love431',
-        db ='alengin2',
+        db ='alengin',
         )
 
 cursor = conn.cursor()
 
 
-sql = "select t.item_id,t.CONTENT from al_res_tiankong_item t where  t.CONTENT like '%float:left;%' "
+# 先获取所有上下册的教材
+sql_a = "select t.code,t.TERM from base_book_catelog t where LENGTH(t.`CODE`) = 12 "
 
 
 # 循环获取数据并保存数据
-cursor.execute(sql)
+cursor.execute(sql_a)
 result = cursor.fetchall()
 for i,row in enumerate(result):
-    id = row[0]
-    content = row[1]
+    code = row[0]
+    term = row[1]
     # print(content)
     # 执行更新操作
     # print(str(id) + ":" + str(newContent))
-    content = content.replace('float:left;','')
     # 更新这条语句
-    upSql = """ update al_res_tiankong_item t set t.CONTENT = %s where t.item_id = %s """
-    upresult = cursor.execute(upSql,(content,id))
+    upSql = """ UPDATE base_book_catelog t SET t.TERM = %s WHERE 1 = 1 AND t. CODE LIKE %s """
+    code = code + '%'
+    upresult = cursor.execute(upSql,(term,code))
 
     # print(upresult)
     print("当前执行为:" + str(i+1) + "/" + str(len(result)))

@@ -3132,3 +3132,27 @@
 
 2019-03-01 08:42:30,042 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=200  数据成功
 
+2019-03-22 13:32:38,990 INFO     41999      获取URLS成功    
+
+2019-03-22 13:32:40,395 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=0  数据成功
+
+2019-03-22 13:32:41,536 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=50  数据成功
+
+2019-03-22 13:32:42,773 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=100  数据成功
+
+2019-03-22 13:32:44,020 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=150  数据成功
+
+2019-03-22 13:32:46,029 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=200  数据成功
+
+2019-03-22 15:31:27,815 INFO     41999      获取URLS成功    
+
+2019-03-22 15:31:29,085 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=0  数据成功
+
+2019-03-22 15:31:30,875 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=50  数据成功
+
+2019-03-22 15:31:32,367 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=100  数据成功
+
+2019-03-22 15:31:33,823 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=150  数据成功
+
+2019-03-22 15:31:35,095 INFO     41999      Python 返回URUL:http://tieba.baidu.com/f?kw=snh48&ie=utf-8&pn=200  数据成功
+

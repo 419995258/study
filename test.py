@@ -1,7 +1,14 @@
-
+# -*- coding: utf-8 -*-
 import time
+import ssl
+import json
 
-for i in range(7803,1020120):
+
+
+for i in range(10,30):
     # print(upresult)
-    print("当前执行为:" + str(i+1) + "/14121")
-    time.sleep(0.3)
+    print("case \"0"+ str(i) +"\":" + "\n"
+				"    return this.FCProcessor_0"+ str(i) +"(tree);")
+
+
+
