@@ -2,6 +2,15 @@
 # coding=utf-8
 import pymysql #mysql-python模块
 
+# UPDATE al_res_danxuan_item t set t.CONTENT = replace(t.CONTENT,'/alres','/alEngin');
+# UPDATE al_res_danxuan_choice t set t.CONTENT = replace(t.CONTENT,'/alres','/alEngin');
+# UPDATE al_res_zhuguan_item t set t.CONTENT = replace(t.CONTENT,'/alres','/alEngin');
+# UPDATE al_res_tiankong_item t set t.CONTENT = replace(t.CONTENT,'/alres','/alEngin');
+# UPDATE al_res_danxuan_item t set t.HOWTO = replace(t.HOWTO,'/alres','/alEngin');
+# UPDATE al_res_zhuguan_item t set t.HOWTO = replace(t.HOWTO,'/alres','/alEngin');
+# UPDATE al_res_tiankong_item t set t.HOWTO = replace(t.HOWTO,'/alres','/alEngin');
+
+
 
 
 
